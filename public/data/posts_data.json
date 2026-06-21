@@ -3,8 +3,8 @@
     "id": 54,
     "category": "AI 에이전트",
     "slug": "google-opal-agent-master-prompt",
-    "title": "[구글 오팔 AI] 나만의 AI 미니앱을 1분 만에 만드는 노코드 프롬프트",
-    "desc": "구글의 실험적 노코드 툴 '오팔(Google Opal)'에서 완벽한 노드 기반 워크플로우를 생성하여, 나만의 AI 자동화 미니앱을 구축하는 프롬프트입니다.",
+    "title": "[구글 오팔 AI] 복붙 한 번에 워크플로우를 완성하는 마스터 프롬프트",
+    "desc": "Google Opal의 'Describe what you want to build' 입력창에 그대로 복붙하세요! 오팔이 User Input, Generate, Output 노드를 알아서 완벽하게 짜줍니다.",
     "views": "489.2k",
     "time": "7 min read",
     "date": "2026-06-21",
@@ -15,9 +15,9 @@
       "노코드",
       "AI미니앱"
     ],
-    "prompt_text": "Create an AI mini-app for [App Purpose]. The workflow must include: 1) A User Input node requesting [Input Details], 2) A Data Processing node that uses Gemini AI to [Specific AI Task], 3) An Output node that formats the result as [Output Format]. Connect these nodes seamlessly to ensure a smooth UI.",
-    "prompt_kr": "[앱_목적]을 위한 AI 미니앱을 생성하세요. 워크플로우에는 다음이 포함되어야 합니다: 1) [입력_상세정보]를 요청하는 사용자 입력 노드, 2) Gemini AI를 사용하여 [특정_AI_작업]을 수행하는 데이터 처리 노드, 3) 결과를 [출력_형식]으로 포맷하는 출력 노드. 매끄러운 UI를 위해 이 노드들을 완벽하게 연결하세요.",
-    "content": "📢 [프롬프트 라이브러리 요약]\n구글 오팔(Google Opal)은 코딩을 전혀 몰라도 자연어만으로 AI 미니앱을 만들어주는 혁신적인 노코드(No-code) 툴입니다. 이 프롬프트는 오팔이 '입력 ➔ AI 처리 ➔ 출력'이라는 노드(Node) 워크플로우를 정확하게 구성하도록 지시하는 마스터 템플릿입니다.\n\n### 💡 사용 팁\n`[App Purpose]`에 '유튜브 대본 요약기', '블로그 자동 작성기' 등을 입력해 보세요. 오팔이 알아서 UI를 만들고 백엔드 AI 로직까지 연결해 바로 사용할 수 있는 앱 링크를 뱉어냅니다.\n\n### ✨ [프롬프트 실행 결과 미리보기]\n이 프롬프트를 구글 오팔에 입력하면, 단순한 텍스트 답변이 아니라 **'실제로 작동하는 웹 애플리케이션'** 인터페이스가 즉시 생성됩니다. 입력창, 처리 버튼, 결과 출력창이 노드로 연결된 시각적 워크플로우를 직접 확인하고 배포할 수 있습니다.",
+    "prompt_text": "Build a [App Name] app. 1. Create a 'User Input' node asking for [User Input Field]. 2. Connect it to a 'Generate' node that uses Gemini to [Specific AI Task and Tone]. 3. Connect the result to an 'Output' node to display the final text beautifully. Make the UI clean and modern.",
+    "prompt_kr": "[앱_이름] 앱을 만들어줘. 1. [유저가_입력할_항목]을 묻는 'User Input' 노드를 생성해. 2. 이것을 Gemini를 사용해 [특정_AI_작업_및_어조]를 수행하는 'Generate' 노드에 연결해. 3. 그 결과를 'Output' 노드에 연결해서 최종 텍스트를 깔끔하게 보여줘. UI는 모던하고 깔끔하게 구성해줘.",
+    "content": "📢 [프롬프트 라이브러리 요약]\n보내주신 스크린샷의 **'Describe what you want to build'** 입력창 전용 프롬프트입니다. 오팔이 화면에 있는 `User Input`, `Generate`, `Output` 버튼을 사람이 일일이 누를 필요 없이, 프롬프트 한 방에 알아서 노드를 깔고 선까지 완벽하게 이어줍니다.\n\n### 💡 사용 팁\n예를 들어 `[App Name]`에 '유튜브 대본 생성기', `[User Input Field]`에 '오늘의 영상 주제', `[Specific AI Task...]`에 '유머러스한 5분짜리 유튜브 대본 작성'이라고만 바꿔 넣으시면, 진짜 10초 만에 대본 생성기 웹앱이 완성됩니다!",
     "verified": true
   },
   {
