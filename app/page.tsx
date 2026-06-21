@@ -37,6 +37,7 @@ export default function Home() {
     { key: "콘텐츠 작성", label: "콘텐츠 작성" },
     { key: "업무 자동화", label: "업무 자동화" },
     { key: "Agent", label: "AI 에이전트" },
+    { key: "VibeCoding", label: "바이브 코딩" },
   ];
 
   // Load posts database
