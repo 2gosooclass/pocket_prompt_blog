@@ -160,7 +160,11 @@ export default function Home() {
                   
                   <div className={`${styles.card} glass-card`}>
                     <div className={styles.cardImageWrapper}>
-                      <img src={p.image} alt={p.title} className={styles.cardImage} />
+                      {p.youtubeId ? (
+                        <img src={`https://img.youtube.com/vi/${p.youtubeId}/mqdefault.jpg`} alt={p.title} className={styles.cardImage} />
+                      ) : (
+                        <img src={p.image} alt={p.title} className={styles.cardImage} />
+                      )}
                     </div>
                     <div className={styles.cardContent}>
                       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.5rem" }}>
