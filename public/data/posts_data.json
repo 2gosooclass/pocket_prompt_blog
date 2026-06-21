@@ -1,5 +1,26 @@
 [
   {
+    "id": 53,
+    "category": "AI 에이전트",
+    "slug": "agent-vibecoding-master-prompt",
+    "title": "[AI 에이전트] 바이브코딩 웹사이트 제작 마스터 프롬프트",
+    "desc": "Cursor, Claude 등 AI 에이전트에게 완벽한 웹사이트를 뽑아내기 위해 '단계별 지시'와 '레퍼런스'를 주입하는 마스터 프롬프트 템플릿입니다.",
+    "views": "312.4k",
+    "time": "5 min read",
+    "date": "2026-06-21",
+    "image": "/images/vibecoding_agent.png",
+    "tags": [
+      "AI에이전트",
+      "바이브코딩",
+      "웹제작",
+      "프롬프트엔지니어링"
+    ],
+    "prompt_text": "You are an expert AI Web Developer Agent. I want to build a [website_type]. \n\nStep 1: Analyze the provided reference image/URL. Identify the core color palette, typography style, and layout structure.\nStep 2: Propose a component hierarchy (e.g., Header, Hero Section, Feature Grid, Footer).\nStep 3: Once I approve the hierarchy, generate the React/Next.js code using Tailwind CSS for styling, ensuring a fully responsive and modern design.",
+    "prompt_kr": "당신은 전문 AI 웹 개발자 에이전트입니다. 저는 [웹사이트_유형]을 구축하고자 합니다.\n\n1단계: 제공된 레퍼런스 이미지/URL을 분석하세요. 핵심 색상 팔레트, 타이포그래피 스타일, 레이아웃 구조를 파악하세요.\n2단계: 컴포넌트 계층 구조(예: 헤더, 히어로 섹션, 기능 그리드, 푸터)를 제안하세요.\n3단계: 제가 계층 구조를 승인하면 Tailwind CSS를 사용하여 React/Next.js 코드를 생성하고, 완벽하게 반응형이며 현대적인 디자인을 보장하세요.",
+    "content": "📢 [프롬프트 라이브러리 요약]\n단순히 \"쇼핑몰 만들어줘\"라고 하면 AI는 뻔한 결과물만 뱉어냅니다. 이 프롬프트는 AI를 진정한 '에이전트(Agent)'로 활용하여 **1) 레퍼런스 분석 -> 2) 구조 기획 -> 3) 코드 작성**의 3단계 프로세스를 밟도록 강제하는 마스터 프롬프트입니다.\n\n### 💡 사용 팁\n`[website_type]` 부분에 '모던한 SaaS 랜딩페이지', '다크모드 포트폴리오' 등을 입력하고, 핀터레스트나 드리블에서 찾은 레퍼런스 이미지를 프롬프트와 함께 첨부해 보세요. 에이전트가 레퍼런스의 '바이브(Vibe)'를 정확히 흡수하여 코드로 구현해 냅니다.",
+    "verified": true
+  },
+  {
     "id": 52,
     "category": "이미지 생성",
     "slug": "youtube-dopamine-thumbnail",
