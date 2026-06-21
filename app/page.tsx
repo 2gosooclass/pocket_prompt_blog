@@ -36,6 +36,7 @@ export default function Home() {
     { key: "이미지 생성", label: "이미지 생성" },
     { key: "콘텐츠 작성", label: "콘텐츠 작성" },
     { key: "업무 자동화", label: "업무 자동화" },
+    { key: "Agent", label: "AI 에이전트" },
   ];
 
   // Load posts database
