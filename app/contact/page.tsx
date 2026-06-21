@@ -9,7 +9,7 @@ export default function ContactPage() {
         <div style={{ padding: "2rem", background: "var(--bg-elevated)", borderRadius: "12px", border: "1px solid var(--border)" }}>
           <h3 style={{ fontSize: "1.2rem", color: "var(--fg-default)", marginBottom: "1rem" }}>Get in Touch</h3>
           <ul style={{ listStyleType: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-            <li><strong>Email:</strong> support@pocketpromptlab.com</li>
+            <li><strong>Email:</strong> support@pocketpromptlab.com, 2gosoo@gmail.com</li>
             <li><strong>Business Inquiries:</strong> business@pocketpromptlab.com</li>
             <li><strong>Operating Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM (KST)</li>
           </ul>
