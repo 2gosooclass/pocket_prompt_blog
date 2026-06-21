@@ -5,32 +5,7 @@ import Link from "next/link";
 import styles from "../page.module.css";
 import { ArrowRight, BookOpen, Search } from "lucide-react";
 
-const insightPosts = [
-  {
-    id: 1,
-    category: "활용 사례",
-    title: "AI 프롬프트 하나로 인스타 릴스 대본 10개를 1분 만에 뽑는 방법",
-    desc: "인스타그램 릴스 조회수를 떡상시킨 비밀 프롬프트의 실제 활용 사례를 파헤칩니다. 초보자도 바로 복붙해서 쓸 수 있는 실무 가이드.",
-    date: "2026-06-20",
-    image: "/images/marketing_thumbnail_1.png", // We will use placeholder or existing image
-  },
-  {
-    id: 2,
-    category: "심층 블로그",
-    title: "구글 SEO 최적화 블로그 포스팅: ChatGPT 프롬프트 완벽 가이드",
-    desc: "챗GPT가 써주는 글은 구글 상위 노출이 안 된다? 이 프롬프트를 쓰면 달라집니다. 체류시간과 H태그 구조까지 완벽히 잡아주는 SEO 특화 프롬프트 전략.",
-    date: "2026-06-18",
-    image: "/images/seo_blog_1781920233620.png",
-  },
-  {
-    id: 3,
-    category: "활용 사례",
-    title: "영문 이력서(Resume) & 커버레터 자동 작성 AI 파이프라인 구축기",
-    desc: "해외 취업을 준비하는 분들을 위한 완벽한 영문 이력서 자동화 프롬프트 세트. HR 담당자의 눈길을 끄는 Action Verb 활용법까지.",
-    date: "2026-06-15",
-    image: "/images/hr_resume_1781920951866.png",
-  }
-];
+import { insightPosts } from "./insightsData";
 
 export default function InsightsPage() {
   return (
