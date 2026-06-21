@@ -19,7 +19,7 @@ const notoSansKr = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pocketpromptlab.com"),
+  metadataBase: new URL("https://2gosooaipromptlab.com"),
   title: {
     default: "2GOSOO AI Prompt Lab",
     template: "%s | 2GOSOO AI Prompt Lab",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://pocketpromptlab.com",
+    url: "https://2gosooaipromptlab.com",
     siteName: "2GOSOO AI Prompt Lab",
     title: "2GOSOO AI Prompt Lab",
     description: "실무에 바로 적용하는 고효율 AI 프롬프트 라이브러리.",

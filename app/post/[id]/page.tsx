@@ -24,6 +24,8 @@ interface Post {
   alt?: string;
 }
 
+import type { Metadata } from "next";
+
 // Next.js static export requires generateStaticParams for dynamic routes
 export function generateStaticParams() {
   return postsData.map((post) => ({
@@ -33,6 +35,43 @@ export function generateStaticParams() {
 
 interface PageProps {
   params: Promise<{ id: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const postId = parseInt(resolvedParams.id);
+  const post = (postsData as Post[]).find((p) => p.id === postId);
+
+  if (!post) {
+    return {
+      title: "포스트를 찾을 수 없습니다",
+    };
+  }
+
+  return {
+    title: post.title,
+    description: post.desc,
+    openGraph: {
+      title: post.title,
+      description: post.desc,
+      url: `https://2gosooaipromptlab.com/post/${post.id}`,
+      type: "article",
+      images: [
+        {
+          url: post.image,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.desc,
+      images: [post.image],
+    },
+  };
 }
 
 export default async function PostDetail({ params }: PageProps) {
