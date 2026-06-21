@@ -11,8 +11,8 @@ export default function Navbar() {
       </Link>
       <nav className="nav-links">
         <Link href="/" className="nav-link">프롬프트 라이브러리</Link>
-        <Link href="/insights" className="nav-link">심층 블로그(Insights)</Link>
-        <Link href="/insights" className="nav-link">활용 사례</Link>
+        <Link href="/insights" className="nav-link">심층 블로그</Link>
+        <Link href="/request" className="btn-primary" style={{ padding: "0.5rem 1rem", fontSize: "0.85rem", textDecoration: "none" }}>✨ 제작 의뢰</Link>
       </nav>
     </header>
   );

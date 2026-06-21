@@ -111,6 +111,17 @@ export default function Home() {
             </div>
           </section>
 
+          {/* Prompt Request CTA Banner */}
+          <div style={{ marginBottom: "2rem", padding: "1.5rem", borderRadius: "1rem", background: "linear-gradient(135deg, rgba(99,102,241,0.1), rgba(139,92,246,0.1))", border: "1px solid rgba(99,102,241,0.2)", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem" }}>
+            <div>
+              <h3 style={{ fontSize: "1.1rem", fontWeight: 700, color: "var(--primary-600)", marginBottom: "0.25rem" }}>원하는 프롬프트가 없나요?</h3>
+              <p style={{ fontSize: "0.9rem", color: "var(--fg-subtle)" }}>원하시는 이미지, 영상, 혹은 업무 자동화 봇이 있다면 2GOSOO Lab에 직접 제작을 의뢰해 보세요!</p>
+            </div>
+            <a href="/request" className="btn-primary" style={{ padding: "0.6rem 1.2rem", textDecoration: "none", fontSize: "0.9rem", whiteSpace: "nowrap" }}>
+              ✨ 맞춤형 프롬프트 의뢰하기
+            </a>
+          </div>
+
           {/* [TODO] 추후 구글 애드센스 승인 완료 후 여기에 인피드 광고(In-feed Ad) 코드 삽입 */}
 
           {/* Category Filter Tabs & Sort options */}

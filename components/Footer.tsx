@@ -26,7 +26,7 @@ export default function Footer() {
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             <span style={{ fontWeight: 600, fontSize: "0.9rem" }}>회사 및 법적 정보</span>
             <Link href="/about" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>회사 소개 (About Us)</Link>
-            <a href="mailto:2gosoo@gmail.com" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>문의하기 (2gosoo@gmail.com)</a>
+            <Link href="/contact" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>문의하기 (Contact)</Link>
             <Link href="/terms" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>이용약관 (Terms)</Link>
             <Link href="/privacy" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>개인정보처리방침 (Privacy)</Link>
           </div>
