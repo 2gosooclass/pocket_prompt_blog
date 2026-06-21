@@ -21,6 +21,7 @@ SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
 def get_authenticated_service():
     creds = None
     pickle_paths = [
+        os.path.join(BASE_DIR, "00_AGENTS_CENTER/04_Secrets/auth/token_promptlab.pickle"),
         os.path.join(BASE_DIR, "00_AGENTS_CENTER/04_Secrets/auth/token.pickle"),
         os.path.join(BASE_DIR, ".agents/secrets/tokens/token.pickle")
     ]
