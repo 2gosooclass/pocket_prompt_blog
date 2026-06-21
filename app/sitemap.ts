@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://2gosoo.com";
+  const baseUrl = "https://2gosooaipromptlab.com";
 
   // In a real app, you would fetch these from an API or JSON
   const routes = [

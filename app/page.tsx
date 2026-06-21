@@ -174,7 +174,7 @@ export default function Home() {
                       {p.youtubeId ? (
                         <img src={`https://img.youtube.com/vi/${p.youtubeId}/mqdefault.jpg`} alt={p.title} className={styles.cardImage} />
                       ) : (
-                        <img src={p.image} alt={p.title} className={styles.cardImage} />
+                        <img src={p.image} alt={(p as any).alt || p.title} className={styles.cardImage} />
                       )}
                     </div>
                     <div className={styles.cardContent}>

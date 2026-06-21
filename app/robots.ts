@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://2gosoo.com/sitemap.xml",
+    sitemap: "https://2gosooaipromptlab.com/sitemap.xml",
   };
 }

@@ -21,6 +21,7 @@ interface Post {
   warning?: boolean;
   youtubeId?: string;
   tags?: string[];
+  alt?: string;
 }
 
 // Next.js static export requires generateStaticParams for dynamic routes
@@ -69,10 +70,12 @@ export default async function PostDetail({ params }: PageProps) {
       if (index % 2 === 0) {
         part.split("\n").forEach((line) => {
           const trimmed = line.trim();
+          const stripEmojis = (str: string) => str.replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '').trim();
+          
           if (trimmed.startsWith("###")) {
-            toc.push({ text: trimmed.replace("###", "").trim(), level: 3, id: `h-${headerIndex++}` });
+            toc.push({ text: stripEmojis(trimmed.replace("###", "")), level: 3, id: `h-${headerIndex++}` });
           } else if (trimmed.startsWith("##")) {
-            toc.push({ text: trimmed.replace("##", "").trim(), level: 2, id: `h-${headerIndex++}` });
+            toc.push({ text: stripEmojis(trimmed.replace("##", "")), level: 2, id: `h-${headerIndex++}` });
           }
         });
       }
@@ -235,7 +238,7 @@ export default async function PostDetail({ params }: PageProps) {
             </div>
           ) : (
             <div style={{ marginTop: "1.5rem", borderRadius: "16px", overflow: "hidden", boxShadow: "var(--glass-shadow)" }}>
-              <img src={post.image} alt={post.title} style={{ width: "100%", maxHeight: "500px", objectFit: "cover", display: "block" }} />
+              <img src={post.image} alt={post.alt || post.title} style={{ width: "100%", maxHeight: "500px", objectFit: "cover", display: "block" }} />
             </div>
           )}
 
@@ -309,7 +312,10 @@ export default async function PostDetail({ params }: PageProps) {
               <ul className={styles.tocList}>
                 {toc.map((item, idx) => (
                   <li key={idx} className={`${styles.tocItem} ${item.level === 3 ? styles.tocItemH3 : ''}`}>
-                    <a href={`#${item.id}`} style={{ color: "inherit", textDecoration: "none" }}>{item.text}</a>
+                    <a href={`#${item.id}`} style={{ color: "inherit", textDecoration: "none", display: "flex", alignItems: "flex-start", gap: "0.4rem" }}>
+                      <span style={{ color: "var(--primary-500)", fontWeight: "bold" }}>•</span>
+                      <span>{item.text}</span>
+                    </a>
                   </li>
                 ))}
               </ul>

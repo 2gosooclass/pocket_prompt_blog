@@ -12,8 +12,13 @@ export function generateStaticParams() {
   }));
 }
 
-export default function InsightPostPage({ params }: { params: { id: string } }) {
-  const post = insightPosts.find((p) => p.id === params.id);
+interface PageProps {
+  params: Promise<{ id: string }>;
+}
+
+export default async function InsightPostPage({ params }: PageProps) {
+  const resolvedParams = await params;
+  const post = insightPosts.find((p) => p.id === resolvedParams.id);
 
   if (!post) {
     notFound();
@@ -45,7 +50,7 @@ export default function InsightPostPage({ params }: { params: { id: string } }) 
             </div>
 
             <div style={{ width: "100%", height: "400px", borderRadius: "16px", overflow: "hidden", background: "var(--bg-subtle)", marginBottom: "3rem", display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <img src={post.image} alt={post.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+              <img src={post.image} alt={(post as any).alt || post.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
             </div>
 
             <div className="markdown-body" style={{ fontSize: "1.1rem", lineHeight: 1.8, color: "var(--fg)" }}>

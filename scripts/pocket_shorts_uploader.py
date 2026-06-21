@@ -92,8 +92,8 @@ def process_videos():
         title = f"{post['title']} #Shorts"
         description = (
             f"{post['desc']}\n\n"
-            f"👇 아래 링크에서 프롬프트를 확인하고 직접 생성해 보세요!\n"
-            f"🔗 https://pocketpromptlab.com/post/{post_id}\n\n"
+            f"👇 아래 링크에서 한글 프롬프트를 복사한 뒤, 원하는 단어만 살짝 수정해서 나만의 영상을 만들어 보세요! 🎨✨\n"
+            f"🔗 https://2gosooaipromptlab.com/post/{post_id}\n\n"
             f"#AI영상생성 #Omni #Sora #프롬프트엔지니어링 #Shorts"
         )
         tags = post.get('tags', []) + ["Shorts", "AI", "Prompt"]

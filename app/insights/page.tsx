@@ -41,7 +41,7 @@ export default function InsightsPage() {
             {insightPosts.map((post) => (
               <article key={post.id} className="glass-card" style={{ display: "flex", gap: "2.5rem", padding: "1.5rem", borderRadius: "24px", flexDirection: "row", alignItems: "center", transition: "transform var(--transition-base), box-shadow var(--transition-base)" }}>
                 <div style={{ flex: "0 0 320px", height: "220px", borderRadius: "16px", overflow: "hidden", background: "var(--bg-subtle)", position: "relative" }}>
-                  <img src={post.image} alt={post.title} style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform var(--transition-slow)" }} 
+                  <img src={post.image} alt={(post as any).alt || post.title} style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform var(--transition-slow)" }} 
                        onMouseOver={e => e.currentTarget.style.transform = "scale(1.05)"}
                        onMouseOut={e => e.currentTarget.style.transform = "scale(1)"}
                        onError={(e) => { e.currentTarget.src = "https://via.placeholder.com/320x220" }} />
