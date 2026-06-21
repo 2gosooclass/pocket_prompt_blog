@@ -1,5 +1,28 @@
 [
   {
+    "id": 55,
+    "category": "Agent",
+    "slug": "google-opal-youtube-automation-factory",
+    "title": "[구글 오팔] 상위 1% 유튜버의 '자동화 팩토리' 워크플로우 프롬프트",
+    "desc": "구글 오팔(Google Opal)에 복붙하면 입력부터 리서치, A/B 테스트용 썸네일 3종 생성, SEO 메타데이터까지 한 번에 끝내는 완벽한 노드 워크플로우를 자동 설계합니다.",
+    "views": "3.1K",
+    "time": "5 min read",
+    "date": "June 21, 2026",
+    "image": "/images/opal_result1.png",
+    "prompt_text": "[전체 워크플로우 구조 설계]\n1. Input Topic (입력) -> 2. Research & Trend Analysis (리서치) -> 3. Generate Viral Concepts (바이럴 콘셉트) -> 4. Generate 3 Thumbnail Images (썸네일 생성) & 5. Generate SEO Meta Content (메타데이터) -> 6. Assemble Final Dashboard (결과 취합)\n\n[각 단계별 상세 지시사항]\n1. Input Topic (입력): 영상의 핵심 주제나 키워드 입력창 생성.\n2. Research & Trend Analysis (리서치): 최신 트렌드, 결핍(Pain Point), 경쟁 영상 분석.\n3. Generate Viral Concepts (콘셉트 도출): 클릭률(CTR) 극대화 후킹 콘셉트 도출.\n4. Generate 3 Thumbnail Images (썸네일 생성): 호기심형, 정보전달형, 어그로형 3개 썸네일 프롬프트.\n5. Generate SEO Meta Content (메타데이터): 후킹 제목 3개, 타임라인 설명, 태그 생성.\n6. Assemble Final Dashboard (최종 취합): 모든 데이터를 한눈에 보는 HTML 대시보드 출력.\n\n이 6단계 파이프라인이 유기적으로 연결되도록, 'User Input' 노드로 시작해 다수의 'Generate(Gemini)' 노드를 거쳐 최종 'Output' 노드로 취합되는 완벽한 워크플로우로 시각화하여 구축해줘.",
+    "prompt_kr": "[위 영문/한글 혼용 프롬프트 텍스트를 그대로 오팔 입력창에 복사해서 붙여넣으세요!]",
+    "content": "📢 [프롬프트 라이브러리 요약]\n단순한 챗봇 질문을 넘어서, 구글 오팔(Google Opal)의 강력한 '노드 자동 생성' 능력을 100% 끌어내는 심화 마스터 프롬프트입니다.\n\n### 💡 놀라운 사용 예시 (단어 하나로 끝!)\n위 프롬프트를 복붙해서 워크플로우를 세팅한 뒤, 'Video Topic' 입력창에 **'애드센스 승인'**이라는 단 6글자만 입력해 보세요.\n\n오팔이 알아서 트렌드를 분석하고 다음을 한 방에 뱉어냅니다:\n1. **유튜브 A/B 테스트용 썸네일 3종 생성:** 호기심형, 정보전달형, 어그로형 등 서로 다른 후킹 포인트를 가진 3가지 썸네일 대안을 즉시 제안합니다.\n2. **SEO 메타데이터 완벽 세팅:** 클릭을 부르는 제목, 타임라인이 포함된 설명, 최적화된 태그까지 대시보드 하나에 싹 다 나옵니다!\n\n![오팔 워크플로우 화면](/images/opal_result2.png)\n*(실제 프롬프트 한 방에 알아서 짜여진 오팔 노드 트리)*\n\n![대시보드 출력 결과](/images/opal_result1.png)\n*('애드센스 승인'이라는 단어 하나로 뽑아낸 A/B 테스트용 썸네일 3종과 결과물)*\n\n### ✨ [실행 방법]\n1. 구글 오팔에 접속하여 하단의 'Describe what you want to build' 창을 켭니다.\n2. 위 프롬프트를 텍스트 수정 없이 그대로 복사+붙여넣기 합니다.\n3. 단 10초 만에 거대한 노드 트리가 생성되며, 앱이 실행되면 유튜브 주제만 던져주세요!",
+    "tags": [
+      "구글오팔",
+      "GoogleOpal",
+      "유튜브자동화",
+      "AB테스트",
+      "SEO최적화"
+    ],
+    "verified": true,
+    "alt": "구글 오팔 유튜브 팩토리"
+  },
+  {
     "id": 54,
     "category": "AI 에이전트",
     "slug": "google-opal-agent-master-prompt",
