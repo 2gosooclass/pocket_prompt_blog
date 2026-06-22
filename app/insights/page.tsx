@@ -31,10 +31,10 @@ export default function InsightsPage() {
             </div>
           </section>
 
-          {/* Top Banner Ad Placeholder */}
+          {/*  Placeholder */}
           <div className={styles.adPlaceholder} style={{ margin: "2rem 0", height: "120px" }}>
-            <span style={{ fontWeight: 600 }}>Top Banner Ad</span>
-            <span style={{ fontSize: "0.8rem" }}>[AdSense Placeholder]</span>
+            <span style={{ fontWeight: 600 }}></span>
+            <span style={{ fontSize: "0.8rem" }}></span>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "2.5rem" }}>
@@ -85,11 +85,11 @@ export default function InsightsPage() {
             </ul>
           </div>
 
-          {/* Sticky Sidebar Ad Placeholder */}
+          {/*  Placeholder */}
           <div className={styles.adPlaceholder} style={{ height: "600px", marginTop: "1.5rem" }}>
-            <span style={{ fontWeight: 600 }}>Sticky Sidebar Ad</span>
+            <span style={{ fontWeight: 600 }}></span>
             <span>300 x 600</span>
-            <span style={{ fontSize: "0.7rem", marginTop: "0.5rem" }}>[AdSense Placeholder]</span>
+            <span style={{ fontSize: "0.7rem", marginTop: "0.5rem" }}></span>
           </div>
         </aside>
       </div>

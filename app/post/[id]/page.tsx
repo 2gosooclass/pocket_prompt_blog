@@ -281,7 +281,7 @@ export default async function PostDetail({ params }: PageProps) {
             </div>
           )}
 
-          {/* [TODO] 추후 애드센스 승인 후 여기에 상단 배너 광고(Top Banner Ad) 삽입 */}
+          {/* [TODO] 추후 애드센스 승인 후 여기에 상단 배너 광고() 삽입 */}
 
           <div className={styles.contentBody}>
             {renderContent(post.content)}
@@ -314,7 +314,7 @@ export default async function PostDetail({ params }: PageProps) {
           {/* In-article Ad Placeholder */}
           <div className={styles.adPlaceholder} style={{ margin: "3rem 0", height: "120px" }}>
             <span style={{ fontWeight: 600 }}>In-Article Ad</span>
-            <span style={{ fontSize: "0.8rem" }}>[AdSense Placeholder]</span>
+            <span style={{ fontSize: "0.8rem" }}></span>
           </div>
 
           <div style={{ display: "flex", justifyContent: "center", marginTop: "1rem", padding: "2rem 0", borderTop: "1px solid var(--border)" }}>
@@ -361,11 +361,11 @@ export default async function PostDetail({ params }: PageProps) {
             </div>
           )}
 
-          {/* Sticky Sidebar Ad Placeholder */}
+          {/*  Placeholder */}
           <div className={styles.adPlaceholder} style={{ height: "600px", marginTop: "0" }}>
-            <span style={{ fontWeight: 600 }}>Sticky Sidebar Ad</span>
+            <span style={{ fontWeight: 600 }}></span>
             <span>300 x 600</span>
-            <span style={{ fontSize: "0.7rem", marginTop: "0.5rem" }}>[AdSense Placeholder]</span>
+            <span style={{ fontSize: "0.7rem", marginTop: "0.5rem" }}></span>
           </div>
         </aside>
       </main>

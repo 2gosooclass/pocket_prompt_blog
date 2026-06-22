@@ -165,8 +165,8 @@ export default function Home() {
                   {index === 3 && (
                     <div className={`${styles.card} glass-card`} style={{ display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(99, 102, 241, 0.05)", border: "1px dashed var(--primary-500)", minHeight: "250px" }}>
                       <div style={{ textAlign: "center", padding: "2rem" }}>
-                        <span style={{ display: "block", fontWeight: 700, color: "var(--primary-600)", marginBottom: "0.5rem" }}>In-Feed Ad</span>
-                        <span style={{ fontSize: "0.8rem", color: "var(--fg-subtle)" }}>[AdSense Placeholder]</span>
+                        <span style={{ display: "block", fontWeight: 700, color: "var(--primary-600)", marginBottom: "0.5rem" }}></span>
+                        <span style={{ fontSize: "0.8rem", color: "var(--fg-subtle)" }}></span>
                       </div>
                     </div>
                   )}
