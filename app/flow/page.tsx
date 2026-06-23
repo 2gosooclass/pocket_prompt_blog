@@ -48,11 +48,11 @@ export default function FlowPage() {
               <Wand2 size={18} /> Google Flow (Omni) & Luma, Kling
             </div>
             <h1 className="gradient-text" style={{ fontSize: "3.5rem", marginBottom: "1rem" }}>
-              무한한 확장, 나만의 커스텀 영상
+              VVIP 하이엔드 커스텀 영상 템플릿
             </h1>
             <p style={{ fontSize: "1.2rem", maxWidth: "800px", margin: "0 auto", color: "var(--fg-muted)", lineHeight: 1.6 }}>
-              대표님의 제품 사진, 본인 얼굴 사진을 먼저 업로드하세요.<br/>
-              그리고 아래의 <strong>마스터 프롬프트</strong>를 결합하면 어떤 사진이든 하이엔드 영상으로 재탄생합니다.
+              대표님의 평범한 제품 사진이나 본인 얼굴을 먼저 업로드하세요.<br/>
+              단 1%만 아는 <strong>프리미엄 마스터 프롬프트</strong>를 결합하면 할리우드급 광고 영상으로 재탄생합니다.
             </p>
             
             {/* 2-Step Process Visualizer */}
