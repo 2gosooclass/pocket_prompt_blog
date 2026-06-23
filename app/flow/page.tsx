@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import styles from "../page.module.css";
-import { Copy, CheckCircle, Image as ImageIcon, Video, ArrowRight, Wand2 } from "lucide-react";
+import { Copy, CheckCircle, Image as ImageIcon, Video, ArrowRight, Wand2, Youtube } from "lucide-react";
 
 type FlowItem = {
   title: string;
@@ -10,6 +10,8 @@ type FlowItem = {
   prompt: string;
   camera: string;
   lighting: string;
+  youtubeId?: string;
+  imageUrl?: string;
 };
 
 type FlowCategory = {
@@ -73,9 +75,9 @@ export default function FlowPage() {
               <ArrowRight size={32} style={{ color: "var(--border)" }} />
               <div className="glass-card" style={{ padding: "2rem", textAlign: "center", width: "280px", borderColor: "var(--primary)" }}>
                 <div style={{ background: "rgba(59, 130, 246, 0.2)", width: "80px", height: "80px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 1rem", color: "var(--primary)" }}>
-                  <Video size={40} />
+                  <Youtube size={40} />
                 </div>
-                <h3 style={{ fontSize: "1.25rem", marginBottom: "0.5rem", fontWeight: 700 }}>Step 3: 압도적 영상 탄생</h3>
+                <h3 style={{ fontSize: "1.25rem", marginBottom: "0.5rem", fontWeight: 700 }}>Step 3: 유튜브 숏츠 완성</h3>
                 <p style={{ color: "var(--fg-subtle)", fontSize: "0.95rem" }}>할리우드급 하이엔드 영상이 즉시 생성됩니다.</p>
               </div>
             </div>
@@ -110,52 +112,75 @@ export default function FlowPage() {
               const fullPrompt = `Prompt: ${item.prompt}\nCamera: ${item.camera}\nLighting: ${item.lighting}`;
               
               return (
-                <div key={index} className="glass-card" style={{ display: "flex", flexDirection: "column", gap: "1.5rem", padding: "2rem" }}>
-                  <div style={{ borderBottom: "1px solid var(--border)", paddingBottom: "1.5rem", display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
-                    <div>
-                      <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--fg)" }}>{item.title}</h2>
-                      <p style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "var(--bg-subtle)", padding: "0.5rem 1rem", borderRadius: "8px", color: "var(--fg-muted)", fontSize: "0.95rem" }}>
-                        교체 키워드: <strong style={{ color: "var(--primary)" }}>{item.asset}</strong>
-                      </p>
-                    </div>
-                    <button 
-                      onClick={() => handleCopy(fullPrompt, index)}
-                      className="btn-primary"
-                      style={{ display: "flex", alignItems: "center", gap: "0.5rem", padding: "0.6rem 1.2rem", border: "none" }}
-                    >
-                      {copiedIndex === index ? <CheckCircle size={18} /> : <Copy size={18} />}
-                      {copiedIndex === index ? "복사됨!" : "전체 프롬프트 복사"}
-                    </button>
-                  </div>
-                  
-                  <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
-                    <div style={{ background: "rgba(0,0,0,0.3)", padding: "1.25rem", borderRadius: "12px", border: "1px solid var(--border)" }}>
-                      <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "0.5rem", display: "block" }}>🎯 메인 액션</span>
-                      <p style={{ color: "var(--fg)", lineHeight: 1.6, fontSize: "1.05rem" }}>
-                        {item.prompt.split(item.asset).map((part, i, arr) => (
-                          <React.Fragment key={i}>
-                            {part}
-                            {i < arr.length - 1 && (
-                              <span style={{ background: "var(--primary)", color: "white", padding: "0.2rem 0.4rem", borderRadius: "4px", margin: "0 0.2rem", fontWeight: 700 }}>
-                                {item.asset}
-                              </span>
-                            )}
-                          </React.Fragment>
-                        ))}
-                      </p>
+                <div key={index} className="glass-card" style={{ padding: "2rem", display: "grid", gridTemplateColumns: item.youtubeId ? "1fr 280px" : "1fr", gap: "2rem" }}>
+                  <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+                    <div style={{ borderBottom: "1px solid var(--border)", paddingBottom: "1.5rem", display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
+                      <div>
+                        <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--fg)" }}>{item.title}</h2>
+                        <p style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "var(--bg-subtle)", padding: "0.5rem 1rem", borderRadius: "8px", color: "var(--fg-muted)", fontSize: "0.95rem" }}>
+                          교체 키워드: <strong style={{ color: "var(--primary)" }}>{item.asset}</strong>
+                        </p>
+                      </div>
+                      <button 
+                        onClick={() => handleCopy(fullPrompt, index)}
+                        className="btn-primary"
+                        style={{ display: "flex", alignItems: "center", gap: "0.5rem", padding: "0.6rem 1.2rem", border: "none" }}
+                      >
+                        {copiedIndex === index ? <CheckCircle size={18} /> : <Copy size={18} />}
+                        {copiedIndex === index ? "복사됨!" : "프롬프트 복사"}
+                      </button>
                     </div>
                     
-                    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.2rem" }}>
-                      <div style={{ background: "var(--bg-subtle)", padding: "1.25rem", borderRadius: "12px" }}>
-                        <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "#c084fc", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "0.5rem", display: "block" }}>🎥 카메라 무빙</span>
-                        <p style={{ color: "var(--fg-muted)", lineHeight: 1.5, fontSize: "0.95rem" }}>{item.camera}</p>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+                      <div style={{ background: "rgba(0,0,0,0.3)", padding: "1.25rem", borderRadius: "12px", border: "1px solid var(--border)" }}>
+                        <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "0.5rem", display: "block" }}>🎯 메인 액션</span>
+                        <p style={{ color: "var(--fg)", lineHeight: 1.6, fontSize: "1.05rem" }}>
+                          {item.prompt.split(item.asset).map((part, i, arr) => (
+                            <React.Fragment key={i}>
+                              {part}
+                              {i < arr.length - 1 && (
+                                <span style={{ background: "var(--primary)", color: "white", padding: "0.2rem 0.4rem", borderRadius: "4px", margin: "0 0.2rem", fontWeight: 700 }}>
+                                  {item.asset}
+                                </span>
+                              )}
+                            </React.Fragment>
+                          ))}
+                        </p>
                       </div>
-                      <div style={{ background: "var(--bg-subtle)", padding: "1.25rem", borderRadius: "12px" }}>
-                        <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "#facc15", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "0.5rem", display: "block" }}>💡 조명 및 톤</span>
-                        <p style={{ color: "var(--fg-muted)", lineHeight: 1.5, fontSize: "0.95rem" }}>{item.lighting}</p>
+                      
+                      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.2rem" }}>
+                        <div style={{ background: "var(--bg-subtle)", padding: "1.25rem", borderRadius: "12px" }}>
+                          <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "#c084fc", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "0.5rem", display: "block" }}>🎥 카메라 무빙</span>
+                          <p style={{ color: "var(--fg-muted)", lineHeight: 1.5, fontSize: "0.95rem" }}>{item.camera}</p>
+                        </div>
+                        <div style={{ background: "var(--bg-subtle)", padding: "1.25rem", borderRadius: "12px" }}>
+                          <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "#facc15", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "0.5rem", display: "block" }}>💡 조명 및 톤</span>
+                          <p style={{ color: "var(--fg-muted)", lineHeight: 1.5, fontSize: "0.95rem" }}>{item.lighting}</p>
+                        </div>
                       </div>
                     </div>
                   </div>
+
+                  {/* YouTube Embed Area */}
+                  {item.youtubeId && (
+                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                      <div style={{ width: "100%", aspectRatio: "9/16", borderRadius: "16px", overflow: "hidden", background: "#000", border: "1px solid var(--border)", position: "relative" }}>
+                        <iframe
+                          width="100%"
+                          height="100%"
+                          src={`https://www.youtube.com/embed/${item.youtubeId}?autoplay=0&loop=1&playlist=${item.youtubeId}&mute=1`}
+                          title="YouTube video player"
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                          style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+                        ></iframe>
+                      </div>
+                      <div style={{ textAlign: "center", marginTop: "0.75rem", fontSize: "0.85rem", color: "var(--fg-subtle)" }}>
+                        ▶️ 실제 생성 결과물
+                      </div>
+                    </div>
+                  )}
                 </div>
               );
             })}
