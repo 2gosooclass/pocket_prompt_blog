@@ -7,8 +7,10 @@ export type PostMetadata = {
   desc: string;
   date: string;
   image: string;
-  alt: string;
-  tags: string[];
+  alt?: string;
+  tags?: string[];
+  category?: string;
+  youtubeId?: string;
 };
 
 export type PostData = {
