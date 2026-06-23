@@ -29,6 +29,8 @@ export const metadata: Metadata = {
   keywords: [
     "ChatGPT 프롬프트", "AI 활용법", "ChatGPT 한국어", "프롬프트 엔지니어링",
     "해외 한인", "AI 튜토리얼", "Claude 프롬프트", "AI 영어 이메일",
+    "Omni", "GoogleOmni", "Veo", "GoogleVeo", "Runway", "RunwayGen3", "Gen3", "Pika", "PikaLabs", "Kling", "KlingAI", "LumaDreamMachine", "LumaAI", "HailuoAI", "Minimax", "AIVideo", "AIVideoGeneration", "AICinema",
+    "DALLE", "DALLE3", "NanoBanana", "Midjourney", "MidjourneyV6", "StableDiffusion", "SDXL", "Flux", "Flux1", "AdobeFirefly", "Firefly", "AIArt", "AIArtwork", "AIImageGenerator"
   ],
   openGraph: {
     type: "website",
