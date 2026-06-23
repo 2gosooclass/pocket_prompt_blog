@@ -4,6 +4,7 @@ import React, { useState, useEffect, Suspense, useMemo } from "react";
 import { Search, Flame, Clock, Bookmark, ArrowRight } from "lucide-react";
 import styles from "./page.module.css";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 
 interface Post {
   id: number;
@@ -192,37 +193,37 @@ function HomeContent() {
             filteredPosts.map((p, index) => (
               <React.Fragment key={p.id}>
                 <div className={`${styles.card} glass-card ${styles.animatedCard}`} style={{ animationDelay: `${index * 0.05}s` }}>
-                  <div className={styles.cardImageWrapper}>
-                    {p.youtubeId ? (
-                      <img src={`https://img.youtube.com/vi/${p.youtubeId}/mqdefault.jpg`} alt={p.title} className={styles.cardImage} />
-                    ) : (
-                      <img src={p.image} alt={(p as any).alt || p.title} className={styles.cardImage} />
-                    )}
-                  </div>
-                  <div className={styles.cardContent}>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.5rem" }}>
-                      <span className="badge badge-primary">{p.category}</span>
-                      <span style={{ fontSize: "0.75rem", color: "var(--fg-subtle)" }}>{p.date}</span>
+                  <Link href={`/post/${p.id}`} style={{ display: "flex", flexDirection: "column", textDecoration: "none", color: "inherit", height: "100%" }}>
+                    <div className={styles.cardImageWrapper}>
+                      {p.youtubeId ? (
+                        <img src={`https://img.youtube.com/vi/${p.youtubeId}/mqdefault.jpg`} alt={p.title} className={styles.cardImage} />
+                      ) : (
+                        <img src={p.image} alt={(p as any).alt || p.title} className={styles.cardImage} />
+                      )}
                     </div>
-                    {p.verified && (
-                      <div style={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}>
-                        <span style={{ fontSize: "0.75rem", fontWeight: 700, color: "#059669", background: "rgba(16, 185, 129, 0.1)", padding: "0.25rem 0.5rem", borderRadius: "12px", display: "inline-flex", alignItems: "center", gap: "0.25rem" }}>
-                          💎 실무 검증 완료
-                        </span>
+                    <div className={styles.cardContent}>
+                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.5rem" }}>
+                        <span className="badge badge-primary">{p.category}</span>
+                        <span style={{ fontSize: "0.75rem", color: "var(--fg-subtle)" }}>{p.date}</span>
                       </div>
-                    )}
-                    <a href={`/post/${p.id}`} style={{ textDecoration: "none", color: "inherit" }}>
+                      {p.verified && (
+                        <div style={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}>
+                          <span style={{ fontSize: "0.75rem", fontWeight: 700, color: "#059669", background: "rgba(16, 185, 129, 0.1)", padding: "0.25rem 0.5rem", borderRadius: "12px", display: "inline-flex", alignItems: "center", gap: "0.25rem" }}>
+                            💎 실무 검증 완료
+                          </span>
+                        </div>
+                      )}
                       <h3 className={styles.cardTitle}>{p.title}</h3>
-                    </a>
-                    <p className={styles.cardDesc}>{p.desc}</p>
-                    <div style={{ marginTop: "1rem", display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
-                      {p.tags?.slice(0, 3).map((tag: string, idx: number) => (
-                        <span key={idx} style={{ fontSize: "0.7rem", background: "rgba(0,0,0,0.05)", padding: "0.2rem 0.5rem", borderRadius: "12px", color: "var(--fg-muted)" }}>
-                          #{tag}
-                        </span>
-                      ))}
+                      <p className={styles.cardDesc}>{p.desc}</p>
+                      <div style={{ marginTop: "1rem", display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
+                        {p.tags?.slice(0, 3).map((tag: string, idx: number) => (
+                          <span key={idx} style={{ fontSize: "0.7rem", background: "rgba(0,0,0,0.05)", padding: "0.2rem 0.5rem", borderRadius: "12px", color: "var(--fg-muted)" }}>
+                            #{tag}
+                          </span>
+                        ))}
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </React.Fragment>
             ))

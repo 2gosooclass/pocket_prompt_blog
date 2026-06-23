@@ -40,7 +40,26 @@ def generate_schedule(index):
         
     return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-def find_unmapped_prompt(data):
+
+def extract_prefix(filename):
+    basename = os.path.basename(filename)
+    try:
+        return int(basename.split('_')[0])
+    except:
+        return 999
+
+def find_unmapped_prompt(data, prefix_num):
+    # Get all omni prompts in order
+    omni_prompts = [item for item in data if item.get("omni_marker")]
+    if prefix_num - 1 < len(omni_prompts):
+        item = omni_prompts[prefix_num - 1]
+        if not item.get("youtubeId"):
+            # find original idx in data
+            idx = data.index(item)
+            return idx, item
+    return None, None
+
+def old_find_unmapped_prompt(data):
     for idx, item in enumerate(data):
         if item.get("omni_marker") and not item.get("youtubeId"):
             return idx, item
@@ -49,7 +68,7 @@ def find_unmapped_prompt(data):
 def main():
     print("🚀 Google Omni Shorts Batch Uploader Started...")
     
-    mp4_files = sorted(glob.glob(os.path.join(MP4_DIR, "*.mp4")))
+    mp4_files = sorted(glob.glob(os.path.join(MP4_DIR, "*.mp4")), key=extract_prefix)
     if not mp4_files:
         print("✅ No MP4 files found in the drop zone. Exiting.")
         return
@@ -64,10 +83,13 @@ def main():
         filename = os.path.basename(mp4_file)
         print(f"\n▶ Processing: {filename}")
         
-        idx, item = find_unmapped_prompt(data)
+        
+        prefix_num = extract_prefix(filename)
+        idx, item = find_unmapped_prompt(data, prefix_num)
+
         if not item:
-            print("❌ No unmapped Omni prompts left in posts_data.json!")
-            break
+            print(f"⏭️ Skipping {filename}: Prompt already mapped or doesn't exist.")
+            continue
             
         title = f"[영상 생성 AI] {item['title'].replace('[Google Omni] ', '')} | 맞춤형 B롤 영상 생성기 #Shorts"
         
