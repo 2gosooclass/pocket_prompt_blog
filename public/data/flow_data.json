@@ -7,28 +7,32 @@
         "asset": "@skincare_bottle",
         "prompt": "A close-up macro shot of @skincare_bottle. The dropper slowly dispenses a crystalline drop that falls into a serene, concentric pool of lavender-tinted water below.",
         "camera": "Ultra macro, slow motion (120fps), smooth vertical tilt down.",
-        "lighting": "Soft, warm, diffused morning sunlight, minimalist clean aesthetic, volumetric studio lighting."
+        "lighting": "Soft, warm, diffused morning sunlight, minimalist clean aesthetic, volumetric studio lighting.",
+        "youtubeId": "zpV1VdYo448"
       },
       {
         "title": "스마트 테크 에셋 융합",
         "asset": "@smartwatch",
         "prompt": "High-tech commercial showcasing @smartwatch. Elegant glowing cyan and magenta circuitry patterns race along the metallic bezel and seamlessly integrate with the dynamic, shifting digital watch face.",
         "camera": "Dolly zoom, extreme close-up, rotating lens.",
-        "lighting": "Cyberpunk aesthetic, sharp laser reflections, high contrast, glossy dark reflective surface."
+        "lighting": "Cyberpunk aesthetic, sharp laser reflections, high contrast, glossy dark reflective surface.",
+        "youtubeId": "0AOapc7nKK0"
       },
       {
         "title": "프리미엄 슈즈 역동적 모션",
         "asset": "@running_shoe",
         "prompt": "Tracking shot following @running_shoe as it makes hard impact on wet, dark asphalt. Splashes of neon-orange glowing rain droplets spray outward in gravity-defying slow motion.",
         "camera": "Ground-level tracking shot, high speed, dynamic motion blur.",
-        "lighting": "Moody cinematic, dramatic backlighting, wet reflective floor."
+        "lighting": "Moody cinematic, dramatic backlighting, wet reflective floor.",
+        "youtubeId": "43sdafE-YdQ"
       },
       {
         "title": "글라스 향수병 액체 시뮬레이션",
         "asset": "@perfume",
         "prompt": "The glass bottle of @perfume floating weightlessly in a zero-gravity environment. Beautiful swirls of liquid rose gold and delicate pink silk ribbons wrap around the body of the bottle.",
         "camera": "Slow orbital camera movement, shallow depth of field.",
-        "lighting": "High-fashion luxury look, soft-focus bokeh, ethereal backlighting."
+        "lighting": "High-fashion luxury look, soft-focus bokeh, ethereal backlighting.",
+        "youtubeId": "F-L6XUh9QjE"
       }
     ]
   },
@@ -40,7 +44,8 @@
         "asset": "@gourmet_burger",
         "prompt": "High-speed culinary disassembly sequence. The ingredients of @gourmet_burger (glowing melted cheddar, hot sizzling beef patty, crisp lettuce, red tomato slice) float and align perfectly in mid-air.",
         "camera": "Slow-motion vertical rise, camera tracking the falling top bun.",
-        "lighting": "Rich warm colors, professional food styling lighting, high-contrast dark background."
+        "lighting": "Rich warm colors, professional food styling lighting, high-contrast dark background.",
+        "youtubeId": "iH1UNeamaaM"
       },
       {
         "title": "스파클링 캔 크랙 & 버스트",
