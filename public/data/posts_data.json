@@ -139,7 +139,7 @@
   },
   {
     "id": 55,
-    "category": "Agent",
+    "category": "AI 에이전트",
     "slug": "google-opal-youtube-automation-factory",
     "title": "[구글 오팔] 상위 1% 유튜버의 '자동화 팩토리' 워크플로우 프롬프트",
     "desc": "구글 오팔(Google Opal)에 복붙하면 입력부터 리서치, A/B 테스트용 썸네일 3종 생성, SEO 메타데이터까지 한 번에 끝내는 완벽한 노드 워크플로우를 자동 설계합니다.",
@@ -185,7 +185,7 @@
   },
   {
     "id": 53,
-    "category": "VibeCoding",
+    "category": "바이브 코딩",
     "slug": "agent-vibecoding-master-prompt",
     "title": "[AI 에이전트] 바이브코딩 웹사이트 제작 마스터 프롬프트",
     "desc": "Cursor, Claude 등 AI 에이전트에게 완벽한 웹사이트를 뽑아내기 위해 '단계별 지시'와 '레퍼런스'를 주입하는 마스터 프롬프트 템플릿입니다.",
@@ -248,7 +248,7 @@
   },
   {
     "id": 31,
-    "category": "기획/와이어프레임",
+    "category": "콘텐츠 작성",
     "slug": "landing-page-wireframe-sketch",
     "title": "[웹 기획 AI] 랜딩페이지 와이어프레임 기획 스케치 프롬프트",
     "desc": "기획자들을 위한 프롬프트! 복잡한 서비스 구조를 깔끔한 손그림 스타일의 와이어프레임 이미지로 10초 만에 시각화합니다.",
@@ -269,7 +269,7 @@
   },
   {
     "id": 30,
-    "category": "UI/UX 디자인",
+    "category": "이미지 생성",
     "slug": "dashboard-ui-glassmorphism",
     "title": "[웹 디자인 AI] 애플 스타일 미니멀 금융 대시보드",
     "desc": "AI 특유의 작위적인 느낌은 빼고, 애플(Apple) 스타일의 깔끔하고 전문적인 플랫 디자인 대시보드를 생성합니다.",
@@ -290,7 +290,7 @@
   },
   {
     "id": 29,
-    "category": "바이브코딩",
+    "category": "바이브 코딩",
     "slug": "vibecoding-developer-mockup",
     "title": "[바이브코딩 AI] 개발자 감성 충만! 프론트엔드 목업 이미지",
     "desc": "Cursor와 Claude로 바이브코딩을 즐기는 개발자들을 위한 최적의 썸네일! 화려한 코드와 라이브 프리뷰가 띄워진 완벽한 워크스페이스 렌더링입니다.",
@@ -1309,8 +1309,8 @@
     "alt": "AI 챗봇 인터페이스와 사용자 질의응답 화면"
   },
   {
-    "id": 57,
-    "category": "AI 영상",
+    "id": 1057,
+    "category": "영상 생성",
     "slug": "storefront-door-opens-luxury-p",
     "title": "Luxury Parisian Bakery Storefront",
     "desc": "Sora / Luma / Runway 등 AI 영상 생성기를 위한 프롬프트입니다. Luxury Parisian Bakery Storefront의 생생한 장면을 연출해보세요.",
@@ -1331,8 +1331,8 @@
     "youtubeId": "I4DyuGW8dEs"
   },
   {
-    "id": 58,
-    "category": "AI 영상",
+    "id": 1058,
+    "category": "영상 생성",
     "slug": "vintage-suitcase-opens,-paper-",
     "title": "Vintage Suitcase Opening",
     "desc": "Sora / Luma / Runway 등 AI 영상 생성기를 위한 프롬프트입니다. Vintage Suitcase Opening의 생생한 장면을 연출해보세요.",
@@ -1353,8 +1353,8 @@
     "youtubeId": "ESBiDWsNZtI"
   },
   {
-    "id": 59,
-    "category": "AI 영상",
+    "id": 1059,
+    "category": "영상 생성",
     "slug": "hands-pulling-invitation-card",
     "title": "Hands Pulling Invitation Card",
     "desc": "Sora / Luma / Runway 등 AI 영상 생성기를 위한 프롬프트입니다. Hands Pulling Invitation Card의 생생한 장면을 연출해보세요.",
@@ -1375,8 +1375,8 @@
     "youtubeId": "XVvOo9sMCRI"
   },
   {
-    "id": 60,
-    "category": "AI 영상",
+    "id": 1060,
+    "category": "영상 생성",
     "slug": "airplane-boarding-pass-to-auro",
     "title": "Airplane Boarding Pass to Aurora",
     "desc": "Sora / Luma / Runway 등 AI 영상 생성기를 위한 프롬프트입니다. Airplane Boarding Pass to Aurora의 생생한 장면을 연출해보세요.",
@@ -1397,8 +1397,8 @@
     "youtubeId": "Mh27NxcGrXQ"
   },
   {
-    "id": 61,
-    "category": "AI 영상",
+    "id": 1061,
+    "category": "영상 생성",
     "slug": "grilled-steak-on-hot-pan",
     "title": "Sizzling Grilled Steak on Hot Pan",
     "desc": "Sora / Luma / Runway 등 AI 영상 생성기를 위한 프롬프트입니다. Sizzling Grilled Steak on Hot Pan의 생생한 장면을 연출해보세요.",

@@ -19,10 +19,10 @@ export default function Footer() {
         <div style={{ display: "flex", gap: "3rem" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             <span style={{ fontWeight: 600, fontSize: "0.9rem" }}>카테고리</span>
-            <Link href="/" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>영상 생성</Link>
-            <Link href="/" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>이미지 생성</Link>
-            <Link href="/" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>콘텐츠 작성</Link>
-            <Link href="/" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>업무 자동화</Link>
+            <Link href="/?category=영상 생성" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>영상 생성</Link>
+            <Link href="/?category=이미지 생성" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>이미지 생성</Link>
+            <Link href="/?category=콘텐츠 작성" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>콘텐츠 작성</Link>
+            <Link href="/?category=업무 자동화" style={{ color: "var(--fg-muted)", fontSize: "0.85rem", textDecoration: "none" }}>업무 자동화</Link>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             <span style={{ fontWeight: 600, fontSize: "0.9rem" }}>회사 및 법적 정보</span>
