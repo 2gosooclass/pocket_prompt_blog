@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import styles from "../page.module.css";
-import { Copy, CheckCircle, Image as ImageIcon, Video, ArrowRight, Wand2, Youtube } from "lucide-react";
+import { Copy, CheckCircle, Image as ImageIcon, Video, ArrowRight, Wand2, PlayCircle } from "lucide-react";
 
 type FlowItem = {
   title: string;
@@ -75,7 +75,7 @@ export default function FlowPage() {
               <ArrowRight size={32} style={{ color: "var(--border)" }} />
               <div className="glass-card" style={{ padding: "2rem", textAlign: "center", width: "280px", borderColor: "var(--primary)" }}>
                 <div style={{ background: "rgba(59, 130, 246, 0.2)", width: "80px", height: "80px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 1rem", color: "var(--primary)" }}>
-                  <Youtube size={40} />
+                  <PlayCircle size={40} />
                 </div>
                 <h3 style={{ fontSize: "1.25rem", marginBottom: "0.5rem", fontWeight: 700 }}>Step 3: 유튜브 숏츠 완성</h3>
                 <p style={{ color: "var(--fg-subtle)", fontSize: "0.95rem" }}>할리우드급 하이엔드 영상이 즉시 생성됩니다.</p>
