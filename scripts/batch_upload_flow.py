@@ -49,7 +49,7 @@ def find_unmapped_prompt(data):
 def main():
     print("🚀 Google Omni Shorts Batch Uploader Started...")
     
-    mp4_files = glob.glob(os.path.join(MP4_DIR, "*.mp4"))
+    mp4_files = sorted(glob.glob(os.path.join(MP4_DIR, "*.mp4")))
     if not mp4_files:
         print("✅ No MP4 files found in the drop zone. Exiting.")
         return
