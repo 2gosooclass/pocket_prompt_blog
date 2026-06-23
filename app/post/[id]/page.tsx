@@ -640,17 +640,31 @@ export default async function PostDetail({ params }: PageProps) {
                     href={`/post/${p.id}`}
                     className={`${styles.card} glass-card`}
                   >
-                    <img
-                      src={p.image}
-                      alt={p.title}
-                      style={{
-                        width: "100%",
-                        height: "140px",
-                        objectFit: "cover",
-                        borderTopLeftRadius: "16px",
-                        borderTopRightRadius: "16px",
-                      }}
-                    />
+                    {p.youtubeId ? (
+                      <img
+                        src={`https://img.youtube.com/vi/${p.youtubeId}/mqdefault.jpg`}
+                        alt={p.title}
+                        style={{
+                          width: "100%",
+                          height: "140px",
+                          objectFit: "cover",
+                          borderTopLeftRadius: "16px",
+                          borderTopRightRadius: "16px",
+                        }}
+                      />
+                    ) : (
+                      <img
+                        src={p.image || "/images/gemini_omni.png"}
+                        alt={p.title}
+                        style={{
+                          width: "100%",
+                          height: "140px",
+                          objectFit: "cover",
+                          borderTopLeftRadius: "16px",
+                          borderTopRightRadius: "16px",
+                        }}
+                      />
+                    )}
                     <div style={{ padding: "1rem" }}>
                       <span
                         className={`badge badge-${(p.category || "default").toLowerCase()}`}
