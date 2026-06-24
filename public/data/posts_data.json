@@ -1,5 +1,51 @@
 [
   {
+    "id": 1080,
+    "category": "이미지 생성",
+    "slug": "cyberpunk-ramen-stall",
+    "title": "[미드저니/달리] 하이퍼리얼리즘 사이버펑크 라멘 가게",
+    "desc": "미래의 도쿄 뒷골목, 네온사인이 반사되는 비 오는 거리의 분위기를 완벽하게 연출하는 프롬프트입니다.",
+    "views": "0",
+    "time": "1 min read",
+    "date": "2026-06-24",
+    "image": "/images/prompt/cyberpunk_ramen_stall.png",
+    "tags": [
+      "사이버펑크",
+      "하이퍼리얼리즘",
+      "미드저니",
+      "배경",
+      "SF"
+    ],
+    "prompt_text": "A hyper-realistic cyberpunk street food stall in a futuristic Tokyo alleyway. Neon signs reflecting on wet asphalt in the rain. Cinematic volumetric lighting, ultra-detailed steam rising from a glowing bowl of ramen. Masterpiece, 8k resolution, photorealistic.",
+    "prompt_kr": "초현실적인 사이버펑크 미래 도쿄 뒷골목의 길거리 라멘 가게. 비 오는 젖은 아스팔트에 반사되는 네온사인. 시네마틱 볼륨 라이팅, 빛나는 라멘 그릇에서 피어오르는 초정밀 증기 묘사. 마스터피스, 8K 해상도.",
+    "content": "📢 [프롬프트 라이브러리 요약]\nSF 테마, 게임 배경, 또는 사이버펑크 무드의 유튜브 썸네일에 완벽하게 어울리는 프롬프트입니다. 네온사인의 반사광과 볼륨 라이팅(빛 갈라짐) 효과가 극대화되어 시네마틱한 결과물을 만들어냅니다.\n\n### 💡 사용 팁 (Tips for Success)\n`ramen`을 `hotdog`나 `sushi` 등으로 바꾸어 다른 음식점 컨셉으로 응용해 보세요!",
+    "verified": true,
+    "alt": "사이버펑크 라멘 가게"
+  },
+  {
+    "id": 1081,
+    "category": "이미지 생성",
+    "slug": "bioluminescent-fantasy-forest",
+    "title": "[미드저니/달리] 언리얼 엔진 5 스타일 형광 버섯 숲",
+    "desc": "밤의 신비로운 판타지 숲과 요정들을 게임 배경처럼 몽환적으로 그려내는 프롬프트입니다.",
+    "views": "0",
+    "time": "1 min read",
+    "date": "2026-06-24",
+    "image": "/images/prompt/bioluminescent_forest.png",
+    "tags": [
+      "판타지",
+      "자연",
+      "언리얼엔진",
+      "미드저니",
+      "배경"
+    ],
+    "prompt_text": "An ethereal bioluminescent forest at night. Giant luminous mushrooms emitting a soft blue and purple glow, tiny glowing fairies floating in the air. Magical fantasy landscape, Unreal Engine 5 render style, breathtaking, highly detailed, masterpiece.",
+    "prompt_kr": "밤의 에테리얼한 생물 발광 숲. 부드러운 푸른색과 보라색 빛을 뿜어내는 거대한 형광 버섯들, 공중에 떠다니는 작고 빛나는 요정들. 마법 같은 판타지 풍경, 언리얼 엔진 5 렌더링 스타일, 숨 막히게 아름답고 세밀한 디테일.",
+    "content": "📢 [프롬프트 라이브러리 요약]\n동화나 판타지 소설 표지, 게임 로딩 화면 등에 쓰기 좋은 신비로운 분위기의 프롬프트입니다. 'Unreal Engine 5 render style' 키워드를 통해 3D 그래픽 같은 질감과 빛 처리를 강제합니다.\n\n### 💡 사용 팁 (Tips for Success)\n`mushrooms` 대신 `crystal caves` 나 `ancient giant trees` 로 바꾸면 전혀 다른 분위기의 판타지 세계가 완성됩니다.",
+    "verified": true,
+    "alt": "형광 버섯 판타지 숲"
+  },
+  {
     "id": 1062,
     "category": "영상 생성",
     "slug": "google-omni-럭셔리-코스메틱-에셋-매핑",
