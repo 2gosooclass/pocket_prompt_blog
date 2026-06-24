@@ -23,7 +23,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === "" ? 1 : 0.8,
   }));
 
-  const dynamicPosts = postsData.map((post) => ({
+  const now = new Date();
+  const validPosts = postsData.filter((post) => {
+    if (!post.date) return true;
+    const postDate = new Date(post.date);
+    return isNaN(postDate.getTime()) || postDate <= now;
+  });
+
+  const dynamicPosts = validPosts.map((post) => ({
     url: `${baseUrl}/post/${post.id}`,
     lastModified: new Date().toISOString(),
     changeFrequency: "monthly" as const,

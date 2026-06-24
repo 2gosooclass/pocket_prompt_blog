@@ -7,8 +7,8 @@ import shutil
 
 # Paths
 BASE_DIR = "/Users/2gosoo/Documents/2GOSOO_AI_LAB/01_APP_BUILD/pocket_prompt_blog"
-MP4_DIR = os.path.join(BASE_DIR, "public/mp4/flow")
-ARCHIVE_DIR = os.path.join(MP4_DIR, "archive")
+MP4_DIR = os.path.join(BASE_DIR, "public/mp4/flow/프로젝터")
+ARCHIVE_DIR = os.path.join(BASE_DIR, "public/mp4/flow/archive")
 JSON_PATH = os.path.join(BASE_DIR, "public/data/posts_data.json")
 UPLOAD_SCRIPT = "/Users/2gosoo/Documents/2GOSOO_AI_LAB/01_APP_BUILD/09_SHORTS_SNIPER/upload_sniper_shorts.py"
 CHANNEL = "promptlab"
@@ -24,51 +24,61 @@ def save_data(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def generate_schedule(index):
+    # Base datetime (tomorrow)
     now = datetime.datetime.now(datetime.timezone.utc)
+    base_date = now.date() + datetime.timedelta(days=1)
     
-    if index < 5:
-        dt = now + datetime.timedelta(hours=1 + (index * 2))
-    elif index < 9:
-        dt = now + datetime.timedelta(days=1)
-        dt = dt.replace(hour=10 + ((index - 5) * 3), minute=0, second=0)
-    elif index < 13:
-        dt = now + datetime.timedelta(days=2)
-        dt = dt.replace(hour=10 + ((index - 9) * 3), minute=0, second=0)
+    # 2 per day: US EDT 10:00 AM (14:00 UTC) and 6:00 PM (22:00 UTC)
+    days_to_add = index // 2
+    is_evening = index % 2 == 1
+    
+    target_date = base_date + datetime.timedelta(days=days_to_add)
+    
+    if not is_evening:
+        # 10:00 AM EDT -> 14:00 UTC
+        dt = datetime.datetime.combine(target_date, datetime.time(14, 0, 0), tzinfo=datetime.timezone.utc)
     else:
-        dt = now + datetime.timedelta(days=3)
-        dt = dt.replace(hour=10 + ((index - 13) * 3), minute=0, second=0)
+        # 6:00 PM EDT -> 22:00 UTC
+        dt = datetime.datetime.combine(target_date, datetime.time(22, 0, 0), tzinfo=datetime.timezone.utc)
+        
+    # Ensure it's in the future
+    if dt < now:
+        dt += datetime.timedelta(days=1)
         
     return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-
-def extract_prefix(filename):
-    basename = os.path.basename(filename)
-    try:
-        return int(basename.split('_')[0])
-    except:
-        return 999
-
-def find_unmapped_prompt(data, prefix_num):
-    # Get all omni prompts in order
-    omni_prompts = [item for item in data if item.get("omni_marker")]
-    if prefix_num - 1 < len(omni_prompts):
-        item = omni_prompts[prefix_num - 1]
-        if not item.get("youtubeId"):
-            # find original idx in data
-            idx = data.index(item)
-            return idx, item
-    return None, None
-
-def old_find_unmapped_prompt(data):
+def fuzzy_match_video_to_post(filename, data):
+    import re
+    # Clean filename for matching
+    clean_name = re.sub(r'_[0-9]+$', '', os.path.splitext(filename)[0]).replace('_', ' ').lower()
+    
+    best_match = None
+    best_score = 0
+    
     for idx, item in enumerate(data):
-        if item.get("omni_marker") and not item.get("youtubeId"):
-            return idx, item
+        if not item.get("omni_marker") or item.get("youtubeId"):
+            continue
+            
+        # Match based on prompt_text containing words from filename
+        prompt_text = item.get("prompt_text", "").lower()
+        title = item.get("title", "").lower()
+        
+        words = clean_name.split()
+        score = sum(1 for w in words if len(w) > 3 and (w in prompt_text or w in title))
+        
+        if score > best_score:
+            best_score = score
+            best_match = (idx, item)
+            
+    # If score is good enough (at least 1 matching significant word)
+    if best_score > 0:
+        return best_match
     return None, None
 
 def main():
     print("🚀 Google Omni Shorts Batch Uploader Started...")
     
-    mp4_files = sorted(glob.glob(os.path.join(MP4_DIR, "*.mp4")), key=extract_prefix)
+    mp4_files = sorted(glob.glob(os.path.join(MP4_DIR, "*.mp4")))
     if not mp4_files:
         print("✅ No MP4 files found in the drop zone. Exiting.")
         return
@@ -77,18 +87,18 @@ def main():
     
     data = load_data()
     
-    total_uploaded = sum(1 for item in data if item.get("omni_marker") and item.get("youtubeId"))
+    # Check how many are already scheduled to determine start index
+    # (Assuming we start scheduling from tomorrow)
+    total_scheduled = 0
     
     for mp4_file in mp4_files:
         filename = os.path.basename(mp4_file)
         print(f"\n▶ Processing: {filename}")
         
-        
-        prefix_num = extract_prefix(filename)
-        idx, item = find_unmapped_prompt(data, prefix_num)
+        idx, item = fuzzy_match_video_to_post(filename, data)
 
         if not item:
-            print(f"⏭️ Skipping {filename}: Prompt already mapped or doesn't exist.")
+            print(f"⏭️ Skipping {filename}: No matching unmapped prompt found.")
             continue
             
         title = f"[영상 생성 AI] {item['title'].replace('[Google Omni] ', '')} | 맞춤형 B롤 영상 생성기 #Shorts"
@@ -101,9 +111,9 @@ def main():
                f"------------------------------------------\n\n" \
                f"#AI영상생성 #Omni #Sora #프롬프트엔지니어링 #Shorts"
                
-        schedule_time = generate_schedule(total_uploaded)
+        schedule_time = generate_schedule(total_scheduled)
         
-        print(f"📅 Schedule: {schedule_time}")
+        print(f"📅 Schedule: {schedule_time} (UTC)")
         print(f"📌 Title: {title}")
         
         cmd = [
@@ -129,12 +139,13 @@ def main():
             if yt_id:
                 print(f"🎉 Success! YouTube ID: {yt_id}")
                 data[idx]['youtubeId'] = yt_id
+                data[idx]['date'] = schedule_time  # Time-Sync with Next.js frontend
                 save_data(data)
                 
                 shutil.move(mp4_file, os.path.join(ARCHIVE_DIR, filename))
                 print(f"📁 Moved to archive.")
                 
-                total_uploaded += 1
+                total_scheduled += 1
             else:
                 print("❌ Upload succeeded but couldn't parse YouTube ID from output.")
                 print("Output:", output)

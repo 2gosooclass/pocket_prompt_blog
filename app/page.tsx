@@ -66,6 +66,15 @@ function HomeContent() {
   const filteredPosts = useMemo(() => {
     let result = [...posts];
 
+    // 0. Time-Sync Filter: Hide future scheduled posts
+    const now = new Date();
+    result = result.filter(post => {
+      if (!post.date) return true;
+      const postDate = new Date(post.date);
+      // If date parsing fails (NaN), keep it. Otherwise, only show if it's in the past/present.
+      return isNaN(postDate.getTime()) || postDate <= now;
+    });
+
     // 1. Category Filter
     if (activeCategory !== "ALL") {
       result = result.filter((post) => post.category === activeCategory);
