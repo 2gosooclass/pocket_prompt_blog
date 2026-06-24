@@ -1,5 +1,74 @@
 [
   {
+    "id": 1084,
+    "category": "이미지 생성",
+    "slug": "2gosoo-3d-popup-ai",
+    "title": "[2GOSOO 오리지널] 프레임 밖으로 튀어나오는 3D AI/IT 전문가",
+    "desc": "흔한 팝업 템플릿은 가라! AI 교육, 테크 블로그, 유튜브 썸네일에 최적화된 2GOSOO 브랜드 맞춤형 3D 입체 프롬프트입니다.",
+    "views": "0",
+    "time": "5 min read",
+    "date": "2026-06-24",
+    "image": "/images/prompt/social_media_popup_ai.png",
+    "tags": [
+      "3D",
+      "픽사스타일",
+      "팝업",
+      "IT",
+      "오리지널"
+    ],
+    "prompt_text": "A 3D Pixar-style friendly tech professional stepping dynamically OUT of a giant glowing social media UI frame, reaching toward the viewer. Floating 3D icons of AI brains, code brackets, glowing lightbulbs, and social media hearts surround the frame. Bright, energetic, joyful expression. Vibrant colors, clear blue sky background, dynamic perspective, Unreal Engine 5 render, highly detailed masterpiece, uplifting lighting.",
+    "prompt_kr": "거대한 빛나는 소셜 미디어 UI 프레임 밖으로 역동적으로 걸어 나오며 시청자를 향해 손을 뻗는 3D 픽사 스타일의 친근한 테크 전문가. AI 뇌, 코드 브래킷, 빛나는 전구, 소셜 미디어 하트 모양의 3D 아이콘들이 프레임을 둘러싸고 떠다님. 밝고, 활기차고, 즐거운 표정. 생생한 색상, 맑고 푸른 하늘 배경, 역동적인 원근법, 언리얼 엔진 5 렌더링, 매우 상세한 걸작, 희망찬 조명.",
+    "content": "📢 [2GOSOO 프롬프트 랩 오리지널: 3D 팝업 IT/AI 캐릭터]\n\n최근 인스타그램이나 프롬프트 공유 사이트(예: Prompts3)에서 유행하는 '스마트폰/액자 밖으로 튀어나오는 3D 캐릭터' 템플릿을 **우리 2GOSOO AI LAB과 Friendly IT 브랜드 컬러에 맞춰 완벽하게 재탄생**시켰습니다. 흔한 여행지 테마가 아닌, IT 전문가와 코더들을 위한 맞춤형 하이엔드 프롬프트입니다.\n\n### 1. 프롬프트 미학적 분석 (Aesthetic Analysis)\n- **초현실적 팝업 뷰(Dynamic Perspective)**: 소셜 미디어 프레임 밖으로 역동적으로 튀어나오는(stepping dynamically OUT) 연출을 통해, 평면적인 이미지를 넘어 시청자에게 다가오는 듯한 강렬한 입체감을 선사합니다.\n- **IT 특화 오브제(Tech Elements)**: 흔한 하트나 별 모양 대신, AI 뇌 구조, 코드 브래킷(`< >`), 빛나는 전구 등의 테크 아이콘들이 공중에 떠다니며 전문성과 트렌디함을 동시에 강조합니다. 언리얼 엔진 5(Unreal Engine 5 render) 스타일 지정으로 질감이 매우 우수합니다.\n\n### 2. 실무 및 브랜딩 활용 방안 (Practical Use Cases)\n- **AI 교육 콘텐츠 및 클래스 모집**: '2고수 클래스'와 같은 AI/IT 강의 썸네일, 모집 공고 포스터의 메인 비주얼로 사용하면 클릭률(CTR)을 폭발적으로 높일 수 있습니다.\n- **테크 블로그 및 IT 채널 아트**: '친절한 아이티(Friendly IT)' 유튜브 채널 커뮤니티 게시글이나 숏츠 인트로 배경으로 사용하여 퀄리티를 대폭 상승시킵니다.\n\n### 💡 2GOSOO 커스텀 팁 (Tips for Success)\n`tech professional`을 `hacker`, `data scientist`, 또는 `AI developer`로 수정하여 직군에 맞게 변형하세요. 배경인 `clear blue sky background`를 `futuristic server room`으로 바꾸면 한층 더 깊이 있는 다크 테크 무드를 연출할 수도 있습니다! (단, 에너제틱한 느낌을 위해 밝은 톤을 권장합니다.)",
+    "verified": true,
+    "alt": "프레임 밖으로 튀어나오는 3D IT 전문가"
+  },
+  {
+    "id": 1082,
+    "category": "이미지 생성",
+    "slug": "bright-pastel-cafe",
+    "title": "[미드저니] 맑고 따뜻한 햇살 가득한 모던 카페 인테리어",
+    "desc": "B2B 블로그 헤더, 인테리어 제안서 등에 완벽한 통유리창 너머로 햇살이 부서지는 밝고 긍정적인 카페 이미지 프롬프트입니다.",
+    "views": "0",
+    "time": "4 min read",
+    "date": "2026-06-24",
+    "image": "/images/prompt/pastel_sunny_cafe.png",
+    "tags": [
+      "인테리어",
+      "카페",
+      "자연광",
+      "밝은",
+      "미드저니"
+    ],
+    "prompt_text": "A bright and sunny modern cafe interior with huge glass windows. Pastel colors, light wood furniture, sunlight casting soft beautiful shadows. A steaming cup of latte with latte art on a clean table. Bright, uplifting, airy aesthetic. Photorealistic, 8k resolution, architectural photography, masterpiece.",
+    "prompt_kr": "초대형 통유리창이 있는 밝고 화사한 모던 카페 인테리어. 파스텔 톤, 밝은 우드 가구, 부드럽고 아름다운 그림자를 그리는 따뜻한 햇살. 깨끗한 테이블 위의 라떼 아트가 그려진 모락모락 김이 나는 라떼 한 잔. 밝고, 희망차고, 통풍이 잘 되는 미학. 8K, 실사.",
+    "content": "📢 [프롬프트 라이브러리 전문 분석: 따뜻한 감성의 모던 카페 인테리어]\n\n현대 마케팅과 공간 비즈니스에서 시각적 자료의 중요성은 아무리 강조해도 지나치지 않습니다. 본 프롬프트는 맑고 투명한 느낌의 **'따뜻한 햇살이 드는 모던 카페'**를 생성하기 위해 철저하게 설계된 하이엔드급 템플릿입니다.\n\n### 1. 프롬프트 미학적 분석 (Aesthetic Analysis)\n- **자연광(Sunlight)의 극대화**: 이 프롬프트는 어둡고 우울한 분위기를 철저히 배제합니다. 통유리창(huge glass windows)을 통해 들어오는 빛이 파스텔 톤 가구와 충돌하며 부드러운 그림자(soft beautiful shadows)를 만들어 내도록 설계되었습니다.\n- **색채 심리학**: 밝은 우드 톤과 파스텔 컬러의 조합은 사용자에게 안정감, 편안함, 그리고 긍정적인 에너지를 전달합니다. \n\n### 2. 구글 애드센스 및 블로그 SEO 관점의 활용 가치\n블로그 포스팅이나 웹사이트 메인 헤더 이미지로 활용할 때, 방문자의 체류 시간(Dwell Time)을 늘리기 위해서는 '눈이 편안한 이미지'가 필수적입니다. 이 프롬프트는:\n- B2B 비즈니스 웹사이트의 'About Us' 또는 'Contact' 페이지 배경\n- 커피 프랜차이즈, 카페 창업 관련 칼럼의 썸네일\n- 인테리어 디자인 포트폴리오 목업(Mockup) 배경\n등 다양한 상업적 환경에 완벽하게 부합합니다.\n\n### 💡 사용 팁 (Tips for Success)\n`cup of latte`를 `matcha tea`나 `fresh bakery` 등으로 수정하여 베이커리 숍이나 티 하우스로 용도를 변경해 보세요. 해상도를 높이는 `8k resolution`과 `architectural photography` 키워드는 절대 삭제하지 마시길 권장합니다.",
+    "verified": true,
+    "alt": "따뜻한 햇살이 가득한 모던 카페"
+  },
+  {
+    "id": 1083,
+    "category": "이미지 생성",
+    "slug": "pixar-style-fluffy-cat",
+    "title": "[미드저니] 픽사 3D 스타일 노란 우비 입은 아기 고양이",
+    "desc": "교육용 블로그, 키즈 채널 등에 찰떡같이 어울리는 희망차고 맑은 하늘 아래 물웅덩이를 뛰노는 귀여운 고양이 프롬프트입니다.",
+    "views": "0",
+    "time": "4 min read",
+    "date": "2026-06-24",
+    "image": "/images/prompt/pixar_style_fluffy_cat.png",
+    "tags": [
+      "픽사",
+      "캐릭터",
+      "고양이",
+      "귀여운",
+      "미드저니"
+    ],
+    "prompt_text": "A cute fluffy orange cat wearing a tiny yellow raincoat, jumping in a shallow puddle. Pixar 3D animation style, bright colors, clear blue sky, sunlight reflecting on the water. Heartwarming, joyful, highly detailed, masterpieces, uplifting lighting.",
+    "prompt_kr": "작은 노란 우비를 입고 얕은 물웅덩이에서 뛰어오르는 귀엽고 털이 복슬복슬한 오렌지색 고양이. 픽사 3D 애니메이션 스타일, 밝은 색상, 맑고 푸른 하늘, 물에 반사되는 햇빛. 마음이 따뜻해지는, 즐거운, 매우 상세한 마스터피스, 희망찬 조명.",
+    "content": "📢 [프롬프트 라이브러리 전문 분석: 픽사 스타일의 3D 애니메이션 캐릭터]\n\nAI 이미지 생성 기술의 꽃이라 불리는 **'3D 픽사/디즈니 스타일 캐릭터'** 렌더링 프롬프트입니다. 다크하고 무거운 톤을 철저히 배제하고, 동화 같은 맑은 날씨와 희망찬 에너지를 담아냈습니다.\n\n### 1. 프롬프트 미학적 분석 (Aesthetic Analysis)\n- **감성적 터치(Heartwarming & Joyful)**: 노란 우비를 입고 빗물 고인 웅덩이에서 뛰어노는 주황색 고양이라는 설정 자체만으로도 보는 이에게 즉각적인 미소를 유발합니다. \n- **조명과 질감(Lighting & Texture)**: 'sunlight reflecting on the water'라는 명확한 지시어를 통해 물에 반사되는 쨍한 역광과 캐릭터의 보송보송한 털(fluffy) 질감을 극대화했습니다. 픽사 스타일 특유의 뽀샤시하고 맑은 톤을 보장합니다.\n\n### 2. 실무 및 마케팅 활용 방안 (Practical Use Cases)\n- **에듀테크 및 아동용 콘텐츠**: 어린이 영어 회화 앱, 키즈 유튜브 채널 아트, 교육용 블로그의 썸네일로 사용하기에 완벽합니다.\n- **브랜드 마스코트 기획**: 신규 브랜드의 캐릭터를 기획할 때 레퍼런스 시안으로 활용하거나, 인스타그램 카드뉴스 삽화로 삽입하여 참여도(Engagement)를 높일 수 있습니다.\n\n### 💡 사용 팁 (Tips for Success)\n`fluffy orange cat`을 `golden retriever puppy`나 `little bunny`로 변경해보세요. 동물의 종류를 바꾸는 것만으로도 무궁무진한 3D 캐릭터 자산을 무료로 확보할 수 있습니다!",
+    "verified": true,
+    "alt": "픽사 스타일 아기 고양이"
+  },
+  {
     "id": 1080,
     "category": "이미지 생성",
     "slug": "cyberpunk-ramen-stall",
