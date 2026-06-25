@@ -1,5 +1,26 @@
 [
   {
+    "id": 1152,
+    "category": "AI 숏츠 영상",
+    "slug": "golden-retriever-puppy-playing-b…",
+    "title": "Golden retriever puppy playing b…",
+    "desc": "AI Generated Video: Golden retriever puppy playing b…",
+    "views": "New",
+    "time": "5 min read",
+    "date": "2026-06-25",
+    "image": "https://img.youtube.com/vi/TeCKS2dkB1o/maxresdefault.jpg",
+    "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
+    "prompt_kr": "위 영상을 시청해주세요.",
+    "content": "📢 **[신규 영상 업데이트]**\n\n<div style='text-align: center; margin-bottom: 20px;'><iframe width='100%' height='450' src='https://www.youtube.com/embed/TeCKS2dkB1o' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>\n\nAI Generated Video: Golden retriever puppy playing b…",
+    "tags": [
+      "AI",
+      "영상",
+      "업데이트"
+    ],
+    "verified": true,
+    "alt": "Golden retriever puppy playing b…"
+  },
+  {
     "id": 1151,
     "category": "AI 숏츠 영상",
     "slug": "golden-retriever-touches-cat",
