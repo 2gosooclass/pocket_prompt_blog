@@ -1,5 +1,26 @@
 [
   {
+    "id": 1146,
+    "category": "AI 숏츠 영상",
+    "slug": "person-taps-'goodnight'-button",
+    "title": "Person taps 'Goodnight' button",
+    "desc": "AI Generated Video: Person taps 'Goodnight' button",
+    "views": "New",
+    "time": "5 min read",
+    "date": "2026-06-25",
+    "image": "https://img.youtube.com/vi/1Bs_Ir90Om4/maxresdefault.jpg",
+    "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
+    "prompt_kr": "위 영상을 시청해주세요.",
+    "content": "📢 **[신규 영상 업데이트]**\n\n<div style='text-align: center; margin-bottom: 20px;'><iframe width='100%' height='450' src='https://www.youtube.com/embed/1Bs_Ir90Om4' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>\n\nAI Generated Video: Person taps 'Goodnight' button",
+    "tags": [
+      "AI",
+      "영상",
+      "업데이트"
+    ],
+    "verified": true,
+    "alt": "Person taps 'Goodnight' button"
+  },
+  {
     "id": 1145,
     "category": "AI 숏츠 영상",
     "slug": "hands-making-anime-hand-signs",
