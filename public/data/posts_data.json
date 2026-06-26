@@ -1182,7 +1182,7 @@
     "desc": "AI Generated Video: Man working out in gym",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:18:11Z",
     "image": "https://img.youtube.com/vi/ZQRy_d9Mbsc/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1193,7 +1193,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Man working out in gym"
+    "alt": "Man working out in gym",
+    "youtubeId": "ZQRy_d9Mbsc"
   },
   {
     "id": 1121,
@@ -1203,7 +1204,7 @@
     "desc": "AI Generated Video: A person wakes up and",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:18:08Z",
     "image": "https://img.youtube.com/vi/cxMnSgUMxzs/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1214,7 +1215,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "A person wakes up and"
+    "alt": "A person wakes up and",
+    "youtubeId": "cxMnSgUMxzs"
   },
   {
     "id": 1120,
@@ -1224,7 +1226,7 @@
     "desc": "AI Generated Video: Dolomites at sunrise mist",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:18:06Z",
     "image": "https://img.youtube.com/vi/NHnaePzyzx8/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1235,7 +1237,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Dolomites at sunrise mist"
+    "alt": "Dolomites at sunrise mist",
+    "youtubeId": "NHnaePzyzx8"
   },
   {
     "id": 1119,
@@ -1245,7 +1248,7 @@
     "desc": "AI Generated Video: Smart coffee machine brewing coffee",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:18:03Z",
     "image": "https://img.youtube.com/vi/t_KeimQdTvg/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1256,7 +1259,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Smart coffee machine brewing coffee"
+    "alt": "Smart coffee machine brewing coffee",
+    "youtubeId": "t_KeimQdTvg"
   },
   {
     "id": 1118,
@@ -1266,7 +1270,7 @@
     "desc": "AI Generated Video: Hot water poured on coffee",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:18:00Z",
     "image": "https://img.youtube.com/vi/G0jMfbdzGSU/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1277,7 +1281,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Hot water poured on coffee"
+    "alt": "Hot water poured on coffee",
+    "youtubeId": "G0jMfbdzGSU"
   },
   {
     "id": 1117,
@@ -1287,7 +1292,7 @@
     "desc": "AI Generated Video: Elderly vendor serving dumplings",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:58Z",
     "image": "https://img.youtube.com/vi/_S1BTlgTMuI/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1298,7 +1303,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Elderly vendor serving dumplings"
+    "alt": "Elderly vendor serving dumplings",
+    "youtubeId": "_S1BTlgTMuI"
   },
   {
     "id": 1116,
@@ -1308,7 +1314,7 @@
     "desc": "AI Generated Video: Cat follows dog into room",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:55Z",
     "image": "https://img.youtube.com/vi/_T0UEn3ZqqI/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1319,7 +1325,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Cat follows dog into room"
+    "alt": "Cat follows dog into room",
+    "youtubeId": "_T0UEn3ZqqI"
   },
   {
     "id": 1115,
@@ -1329,7 +1336,7 @@
     "desc": "AI Generated Video: Athlete leaps over glowing barrier",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:53Z",
     "image": "https://img.youtube.com/vi/PvidBFt-Ih4/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1340,7 +1347,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Athlete leaps over glowing barrier"
+    "alt": "Athlete leaps over glowing barrier",
+    "youtubeId": "PvidBFt-Ih4"
   },
   {
     "id": 1114,
@@ -1350,7 +1358,7 @@
     "desc": "AI Generated Video: Thumb tapping Confirm Uber button",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:50Z",
     "image": "https://img.youtube.com/vi/XgUN_WX2ptM/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1361,7 +1369,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Thumb tapping Confirm Uber button"
+    "alt": "Thumb tapping Confirm Uber button",
+    "youtubeId": "XgUN_WX2ptM"
   },
   {
     "id": 1113,
@@ -1371,7 +1380,7 @@
     "desc": "AI Generated Video: Cat hiding in closet",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:47Z",
     "image": "https://img.youtube.com/vi/TQ5ZJfwV9aI/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1382,7 +1391,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Cat hiding in closet"
+    "alt": "Cat hiding in closet",
+    "youtubeId": "TQ5ZJfwV9aI"
   },
   {
     "id": 1112,
@@ -1392,7 +1402,7 @@
     "desc": "AI Generated Video: Artist smoothing marble sculpture",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:45Z",
     "image": "https://img.youtube.com/vi/cpVwke7Lnrs/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1403,7 +1413,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Artist smoothing marble sculpture"
+    "alt": "Artist smoothing marble sculpture",
+    "youtubeId": "cpVwke7Lnrs"
   },
   {
     "id": 1111,
@@ -1413,7 +1424,7 @@
     "desc": "AI Generated Video: Dolomites at sunrise mist",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:42Z",
     "image": "https://img.youtube.com/vi/M9bcQfiYbMI/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1424,7 +1435,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Dolomites at sunrise mist"
+    "alt": "Dolomites at sunrise mist",
+    "youtubeId": "M9bcQfiYbMI"
   },
   {
     "id": 1110,
@@ -1434,7 +1446,7 @@
     "desc": "AI Generated Video: Match lighting up dry twigs",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:40Z",
     "image": "https://img.youtube.com/vi/DPlIN5pK72Q/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1445,7 +1457,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Match lighting up dry twigs"
+    "alt": "Match lighting up dry twigs",
+    "youtubeId": "DPlIN5pK72Q"
   },
   {
     "id": 1109,
@@ -1455,7 +1468,7 @@
     "desc": "AI Generated Video: A beautiful, modern suburban family",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:37Z",
     "image": "https://img.youtube.com/vi/YPpmfiJ6Zzo/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1466,7 +1479,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "A beautiful, modern suburban family"
+    "alt": "A beautiful, modern suburban family",
+    "youtubeId": "YPpmfiJ6Zzo"
   },
   {
     "id": 1108,
@@ -1476,7 +1490,7 @@
     "desc": "AI Generated Video: Marble sculpture in gallery",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:35Z",
     "image": "https://img.youtube.com/vi/KnMbPvWcepU/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1487,7 +1501,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Marble sculpture in gallery"
+    "alt": "Marble sculpture in gallery",
+    "youtubeId": "KnMbPvWcepU"
   },
   {
     "id": 1107,
@@ -1497,7 +1512,7 @@
     "desc": "AI Generated Video: Uber passenger view city lights",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:32Z",
     "image": "https://img.youtube.com/vi/_FC_iX_AMMA/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1508,7 +1523,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Uber passenger view city lights"
+    "alt": "Uber passenger view city lights",
+    "youtubeId": "_FC_iX_AMMA"
   },
   {
     "id": 1106,
@@ -1518,7 +1534,7 @@
     "desc": "AI Generated Video: Person walks into living room",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:30Z",
     "image": "https://img.youtube.com/vi/IY-QtvGJp_g/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1529,7 +1545,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Person walks into living room"
+    "alt": "Person walks into living room",
+    "youtubeId": "IY-QtvGJp_g"
   },
   {
     "id": 1105,
@@ -1539,7 +1556,7 @@
     "desc": "AI Generated Video: Emerald green velvet nails",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:27Z",
     "image": "https://img.youtube.com/vi/BSbKvVBcBqQ/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1550,7 +1567,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Emerald green velvet nails"
+    "alt": "Emerald green velvet nails",
+    "youtubeId": "BSbKvVBcBqQ"
   },
   {
     "id": 1104,
@@ -1560,7 +1578,7 @@
     "desc": "AI Generated Video: Influencer claps hands seasons t…",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:25Z",
     "image": "https://img.youtube.com/vi/mD3sTkseyRg/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1571,7 +1589,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Influencer claps hands seasons t…"
+    "alt": "Influencer claps hands seasons t…",
+    "youtubeId": "mD3sTkseyRg"
   },
   {
     "id": 1103,
@@ -1581,7 +1600,7 @@
     "desc": "AI Generated Video: Model walking hallway outfit tra…",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:22Z",
     "image": "https://img.youtube.com/vi/qNl3H8jL-os/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1592,7 +1611,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Model walking hallway outfit tra…"
+    "alt": "Model walking hallway outfit tra…",
+    "youtubeId": "qNl3H8jL-os"
   },
   {
     "id": 1102,
@@ -1602,7 +1622,7 @@
     "desc": "AI Generated Video: Person massaging face cream",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:19Z",
     "image": "https://img.youtube.com/vi/h2sqybwmK7w/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1613,7 +1633,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Person massaging face cream"
+    "alt": "Person massaging face cream",
+    "youtubeId": "h2sqybwmK7w"
   },
   {
     "id": 1101,
@@ -1623,7 +1644,7 @@
     "desc": "AI Generated Video: People using 'All You' products",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:17Z",
     "image": "https://img.youtube.com/vi/dF7Kom127Wg/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1634,7 +1655,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "People using 'All You' products"
+    "alt": "People using 'All You' products",
+    "youtubeId": "dF7Kom127Wg"
   },
   {
     "id": 1100,
@@ -1644,7 +1666,7 @@
     "desc": "AI Generated Video: Hand tapping nail polish colors",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:14Z",
     "image": "https://img.youtube.com/vi/0ebYbqX1YuI/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1655,7 +1677,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Hand tapping nail polish colors"
+    "alt": "Hand tapping nail polish colors",
+    "youtubeId": "0ebYbqX1YuI"
   },
   {
     "id": 1099,
@@ -1665,7 +1688,7 @@
     "desc": "AI Generated Video: A dynamic low-angle shot of",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:11Z",
     "image": "https://img.youtube.com/vi/ne0LO8-vz4I/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1676,7 +1699,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "A dynamic low-angle shot of"
+    "alt": "A dynamic low-angle shot of",
+    "youtubeId": "ne0LO8-vz4I"
   },
   {
     "id": 1098,
@@ -1686,7 +1710,7 @@
     "desc": "AI Generated Video: Nail salon interior luxury minim…",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:09Z",
     "image": "https://img.youtube.com/vi/xZGgwihWwb4/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1697,7 +1721,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Nail salon interior luxury minim…"
+    "alt": "Nail salon interior luxury minim…",
+    "youtubeId": "xZGgwihWwb4"
   },
   {
     "id": 1097,
@@ -1707,7 +1732,7 @@
     "desc": "AI Generated Video: Palace courtyard with lanterns b…",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:06Z",
     "image": "https://img.youtube.com/vi/219TPCCGdt0/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1718,7 +1743,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Palace courtyard with lanterns b…"
+    "alt": "Palace courtyard with lanterns b…",
+    "youtubeId": "219TPCCGdt0"
   },
   {
     "id": 1096,
@@ -1728,7 +1754,7 @@
     "desc": "AI Generated Video: Pen writing calligraphy on paper",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:03Z",
     "image": "https://img.youtube.com/vi/EqJAFYXzrUI/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1739,7 +1765,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Pen writing calligraphy on paper"
+    "alt": "Pen writing calligraphy on paper",
+    "youtubeId": "EqJAFYXzrUI"
   },
   {
     "id": 1095,
@@ -1749,7 +1776,7 @@
     "desc": "AI Generated Video: Hand picking skincare bottle",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:17:01Z",
     "image": "https://img.youtube.com/vi/UvvKS2toxCw/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1760,7 +1787,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Hand picking skincare bottle"
+    "alt": "Hand picking skincare bottle",
+    "youtubeId": "UvvKS2toxCw"
   },
   {
     "id": 1094,
@@ -1770,7 +1798,7 @@
     "desc": "AI Generated Video: Macro shot of a silky,",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:16:58Z",
     "image": "https://img.youtube.com/vi/DglyYjzDmRw/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1781,7 +1809,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Macro shot of a silky,"
+    "alt": "Macro shot of a silky,",
+    "youtubeId": "DglyYjzDmRw"
   },
   {
     "id": 1093,
@@ -1791,7 +1820,7 @@
     "desc": "AI Generated Video: Hand nail polish color transforms",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:16:55Z",
     "image": "https://img.youtube.com/vi/Yx7fRcTIap0/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1802,7 +1831,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Hand nail polish color transforms"
+    "alt": "Hand nail polish color transforms",
+    "youtubeId": "Yx7fRcTIap0"
   },
   {
     "id": 1092,
@@ -1812,7 +1842,7 @@
     "desc": "AI Generated Video: Close-up of 'Glazed Donut' chrome",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:16:53Z",
     "image": "https://img.youtube.com/vi/SaOF0SnlEyQ/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1823,7 +1853,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Close-up of 'Glazed Donut' chrome"
+    "alt": "Close-up of 'Glazed Donut' chrome",
+    "youtubeId": "SaOF0SnlEyQ"
   },
   {
     "id": 1091,
@@ -1833,7 +1864,7 @@
     "desc": "AI Generated Video: Steaming ramen with pork belly",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:16:50Z",
     "image": "https://img.youtube.com/vi/PwyLed2Wc7w/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1844,7 +1875,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Steaming ramen with pork belly"
+    "alt": "Steaming ramen with pork belly",
+    "youtubeId": "PwyLed2Wc7w"
   },
   {
     "id": 1090,
@@ -1854,7 +1886,7 @@
     "desc": "AI Generated Video: Woman using stepmill in gym",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:16:48Z",
     "image": "https://img.youtube.com/vi/guxwv563dOM/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1865,7 +1897,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Woman using stepmill in gym"
+    "alt": "Woman using stepmill in gym",
+    "youtubeId": "guxwv563dOM"
   },
   {
     "id": 1089,
@@ -1875,7 +1908,7 @@
     "desc": "AI Generated Video: Person leaving house locks up",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:16:45Z",
     "image": "https://img.youtube.com/vi/WBCUAPKeITI/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1886,7 +1919,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Person leaving house locks up"
+    "alt": "Person leaving house locks up",
+    "youtubeId": "WBCUAPKeITI"
   },
   {
     "id": 1088,
@@ -1896,7 +1930,7 @@
     "desc": "AI Generated Video: Gyeongbokgung Palace at sunset",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:16:43Z",
     "image": "https://img.youtube.com/vi/YBrh6hrgflk/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1907,7 +1941,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Gyeongbokgung Palace at sunset"
+    "alt": "Gyeongbokgung Palace at sunset",
+    "youtubeId": "YBrh6hrgflk"
   },
   {
     "id": 1087,
@@ -1917,7 +1952,7 @@
     "desc": "AI Generated Video: Old man sitting park bench",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:16:40Z",
     "image": "https://img.youtube.com/vi/ZFaWsDYK7cE/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1928,7 +1963,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Old man sitting park bench"
+    "alt": "Old man sitting park bench",
+    "youtubeId": "ZFaWsDYK7cE"
   },
   {
     "id": 1086,
@@ -1938,7 +1974,7 @@
     "desc": "AI Generated Video: Uber car arriving at airport",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:16:35Z",
     "image": "https://img.youtube.com/vi/kzb7zOZ11KU/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1949,7 +1985,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Uber car arriving at airport"
+    "alt": "Uber car arriving at airport",
+    "youtubeId": "kzb7zOZ11KU"
   },
   {
     "id": 1085,
@@ -1959,7 +1996,7 @@
     "desc": "AI Generated Video: Person asks Google grams",
     "views": "New",
     "time": "5 min read",
-    "date": "2026-06-25",
+    "date": "2026-06-25T23:16:32Z",
     "image": "https://img.youtube.com/vi/fRsKzIQKMK4/maxresdefault.jpg",
     "prompt_text": "자세한 영상 내용은 위 유튜브 플레이어를 클릭하여 확인하세요.",
     "prompt_kr": "위 영상을 시청해주세요.",
@@ -1970,7 +2007,8 @@
       "업데이트"
     ],
     "verified": true,
-    "alt": "Person asks Google grams"
+    "alt": "Person asks Google grams",
+    "youtubeId": "fRsKzIQKMK4"
   },
   {
     "id": 1084,
@@ -2405,7 +2443,7 @@
     "desc": "국제 비즈니스 행사, 무역 사절단, 컨퍼런스 초청을 위한 고품격 광고 영상 프롬프트입니다. 텍스트 오버레이와 장소/시간만 수정해서 바로 사용할 수 있습니다.",
     "views": "248",
     "time": "4 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T03:18:04Z",
     "image": "/images/trade_mission_chicago.png",
     "tags": [
       "비즈니스",
@@ -2428,7 +2466,7 @@
     "desc": "1970년대 파리 세느강변을 걷는 연인의 모습을 노이즈가 낀 35mm 빈티지 필름 감성으로 완벽하게 재현한 무드 영상입니다.",
     "views": "93",
     "time": "4 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T02:30:52Z",
     "image": "/images/youtube_broll.png",
     "tags": [
       "Google Omni",
@@ -2452,7 +2490,7 @@
     "desc": "치즈색 아기 고양이와 복슬복슬한 흰색 말티즈 강아지가 따스한 햇살 아래서 장난스럽게 교감하는 극강의 힐링 쇼츠를 만들어냅니다.",
     "views": "99",
     "time": "5 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T02:21:14Z",
     "image": "/images/youtube_broll.png",
     "tags": [
       "Google Omni",
@@ -2476,7 +2514,7 @@
     "desc": "햇살이 내리쬐는 해안 리조트와 프라이빗 요트를 배경으로, 하이 패션 브랜드 광고처럼 우아한 20대 한국 남녀 모델의 4K 썸머 룩북을 만들어냅니다.",
     "views": "132",
     "time": "3 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T02:19:24Z",
     "image": "/images/product_photo.png",
     "tags": [
       "Google Omni",
@@ -2500,7 +2538,7 @@
     "desc": "레퍼런스 이미지(내 얼굴) 한 장만 넣으면, 동일한 인물이 0.5초 간격으로 부산 랜드마크 20곳을 순회하는 압도적인 숏츠 영상이 만들어집니다.",
     "views": "246",
     "time": "4 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T02:14:38Z",
     "image": "/images/asian_night_market_fpv.png",
     "tags": [
       "Google Omni",
@@ -2546,7 +2584,7 @@
     "desc": "유튜브 인트로나 릴스에 쓰기 완벽한, 10초 만에 시선을 사로잡는 압도적인 속도감의 리얼리티 드론 영상 프롬프트입니다.",
     "views": "157",
     "time": "4 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T15:47:39Z",
     "image": "/images/drone_fpv.png",
     "youtubeId": "cmfjbXfxlhY",
     "tags": [
@@ -2741,7 +2779,7 @@
     "desc": "유튜브 영상 중간중간에 삽입할 고퀄리티 자료 화면(B-Roll)을 무료 스톡 비디오 사이트를 뒤지지 않고 5초 만에 생성합니다.",
     "views": "177",
     "time": "3 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T15:48:03Z",
     "image": "/images/youtube_broll.png",
     "tags": [
       "유튜버",
@@ -2784,7 +2822,7 @@
     "desc": "Runway Gen-3나 Luma에서 가장 극적인 퀄리티를 뽑아내는 '매크로(초근접) + 네온 조명' 조합의 헐리우드급 프롬프트입니다.",
     "views": "36",
     "time": "4 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T15:48:06Z",
     "image": "/images/cyberpunk_macro_eye.png",
     "tags": [
       "RunwayGen3",
@@ -2806,7 +2844,7 @@
     "desc": "Luma Dream Machine의 공간 지각력을 한계까지 끌어올리는 속도감 200%의 FPV 드론 추격 프롬프트입니다.",
     "views": "141",
     "time": "4 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T17:09:38Z",
     "image": "/images/asian_night_market_fpv.png",
     "tags": [
       "Luma",
@@ -2828,7 +2866,7 @@
     "desc": "구글 Veo에서 한국 유저들이 열광한 바로 그 프롬프트. 섬세한 기계 부품과 네온 조명의 완벽한 조화를 보여줍니다.",
     "views": "318",
     "time": "4 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T15:48:01Z",
     "image": "/images/cyberpunk_macro_eye.png",
     "tags": [
       "Veo",
@@ -2850,7 +2888,7 @@
     "desc": "마치 실제 영화의 한 장면처럼 쫓기는 듯한 극도의 긴장감을 유발하는 공포/스릴러 전용 1인칭 프롬프트입니다.",
     "views": "288",
     "time": "5 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T15:48:00Z",
     "image": "/images/thriller_forest_pov.png",
     "tags": [
       "Veo",
@@ -2872,7 +2910,7 @@
     "desc": "너무 귀여워서 심장이 아픈 픽사/디즈니 스타일의 부드럽고 따뜻한 3D 애니메이션 생성 프롬프트입니다.",
     "views": "150",
     "time": "3 min read",
-    "date": "2026-06-20",
+    "date": "2026-06-21T15:47:55Z",
     "image": "/images/pixar_3d.png",
     "tags": [
       "제미나이",
@@ -2894,7 +2932,7 @@
     "desc": "Omni 모델의 압도적인 매크로 질감 묘사력을 극한으로 끌어올리는 프롬프트. 물에 비친 네온사인과 해파리의 유기적 움직임을 미친 듯한 디테일로 뽑아냅니다.",
     "views": "323",
     "time": "1분",
-    "date": "2026-06-20",
+    "date": "2026-06-21T15:47:43Z",
     "image": "/images/jellyfish_omni.png",
     "prompt_text": "Cinematic extreme macro shot of a translucent, bioluminescent jellyfish floating gracefully inside a shallow rain puddle reflecting a neon-lit cyberpunk city. The jellyfish pulses with electric blue and magenta light, its tentacles intricate and hyper-detailed. Raindrops hit the puddle creating ripples that distort the neon reflections. Shot on 100mm macro lens, anamorphic, volumetric lighting, photorealistic, 8k resolution, Unreal Engine 5 render style.",
     "prompt_kr": "네온 불빛이 비치는 사이버펑크 도시의 얕은 빗물 웅덩이 안에 우아하게 떠 있는 반투명한 발광 해파리의 시네마틱 익스트림 매크로 샷. 해파리는 일렉트릭 블루와 마젠타 빛으로 맥동하며, 촉수는 복잡하고 극도로 섬세합니다. 빗방울이 웅덩이에 떨어지며 네온 반사를 왜곡하는 파문을 만듭니다. 100mm 매크로 렌즈 촬영, 아나모픽, 볼류메트릭 라이팅, 포토리얼리스틱, 8K 해상도.",
@@ -2916,7 +2954,7 @@
     "desc": "FPV 드론 시점으로 수직 낙하하며 펼쳐지는 스펙터클한 폭발 씬 프롬프트. 엄청난 스케일의 입체감과 속도감을 완벽하게 구현합니다.",
     "views": "309",
     "time": "1분",
-    "date": "2026-06-20",
+    "date": "2026-06-21T17:09:37Z",
     "image": "/images/scifi_megastructure_omni.png",
     "prompt_text": "High-speed FPV drone shot diving vertically down a collapsing, massive brutalist sci-fi megastructure. Huge concrete blocks are falling, massive explosions in the background erupting in bright orange and thick black smoke. Dust and debris flying past the camera lens. Dramatic cinematic lighting, intense action, gritty atmospheric atmosphere. Photorealistic, 8k, IMAX film aesthetic.",
     "prompt_kr": "초고속 FPV 드론 시점으로 붕괴되는 거대한 브루탈리스트 SF 메가스트럭처를 수직으로 하강하며 촬영. 거대한 콘크리트 블록들이 떨어지고, 배경에서는 밝은 오렌지색과 짙은 검은 연기를 뿜어내는 거대한 폭발이 일어납니다. 카메라 렌즈를 스쳐 지나가는 먼지와 파편들. 극적인 시네마틱 조명, 강렬한 액션, 거친 대기 환경. 포토리얼리스틱, 8K, IMAX 영화 미학.",
@@ -2938,7 +2976,7 @@
     "desc": "단순한 동물이 아닌 기계 장치(Mech)가 결합된 드래곤 프롬프트. 눈보라와 푸른 화염의 극적인 온도차 라이팅이 미친 영상미를 뽑아냅니다.",
     "views": "137",
     "time": "1분",
-    "date": "2026-06-20",
+    "date": "2026-06-21T17:09:36Z",
     "image": "/images/mech_dragon_omni.png",
     "prompt_text": "Hyper-realistic slow motion shot of a colossal mechanical dragon made of intricately detailed dark metallic plates and glowing neon blue circuits. The dragon is standing on a rugged cliff in a violent snowstorm. It rears back and breathes a massive torrent of bright blue fire. The intense light of the fire reflects off its metal scales and illuminates the falling snow. Epic fantasy sci-fi blend, cinematic color grading, 8k resolution, highly detailed.",
     "prompt_kr": "정교하고 섬세한 어두운 금속 판금과 빛나는 네온 블루 회로로 만들어진 거대한 기계 드래곤의 하이퍼리얼리즘 슬로우 모션 샷. 드래곤은 거친 눈보라가 치는 험준한 절벽에 서 있습니다. 뒤로 젖힌 후 밝은 푸른 불길의 거대한 급류를 내뿜습니다. 불꽃의 강렬한 빛이 금속 비늘에 반사되어 내리는 눈을 비춥니다. 서사적인 판타지와 SF의 융합, 시네마틱 컬러 그레이딩, 8K 해상도, 극강의 디테일.",
@@ -2967,7 +3005,7 @@
       "제품홍보",
       "Omni"
     ],
-    "date": "2026-06-20",
+    "date": "2026-06-21T15:47:39Z",
     "views": "103",
     "time": "3 min read",
     "category": "영상 생성",
@@ -2990,7 +3028,7 @@
       "사이버펑크",
       "제품홍보"
     ],
-    "date": "2026-06-20",
+    "date": "2026-06-21T17:09:31Z",
     "views": "186",
     "time": "3 min read",
     "category": "영상 생성",
@@ -3013,7 +3051,7 @@
       "씨즐",
       "음식홍보"
     ],
-    "date": "2026-06-20",
+    "date": "2026-06-21T17:09:36Z",
     "views": "301",
     "time": "5 min read",
     "category": "영상 생성",
@@ -3030,7 +3068,7 @@
     "desc": "실제로 타지 않아도 아드레날린이 솟는 1인칭 POV 영상. 놀이공원 갈 시간 없는 직장인들을 위한 선물입니다.",
     "views": "49",
     "time": "2분 분량",
-    "date": "2026-06-21",
+    "date": "2026-06-21T15:47:58Z",
     "image": "/images/prompt-04-roller-coaster-theme.png",
     "prompt_kr": "테마파크 롤러코스터의 1인칭 시점(POV) 라이딩.\n카메라: GoPro 헬멧 마운트 POV, 170도 화각(FOV), 60fps.\n액션: 느린 체인 리프트 등반으로 시작 — 아래로 공원 전체가 보입니다.\n언덕 정상: 잠시 멈춤, then 갑작스러운 가파른 80도 낙하.\n중력가속도 느낌: 빠른 하강, 강한 돌풍, 손이 본능적으로 올라감.\n요소: 트랙 루프(360도 배럴 롤), 날카로운 회전, 지지대와의 아슬아슬한 근접 통과.\n속도: 3초 만에 0에서 70mph에 도달하는 느낌. 바람 소리가 강렬해야 함.\n색상: 맑고 화창한 날, 푸른 하늘, 알록달록한 롤러코스터 트랙.\n사운드: 비명 지르는 탑승객들, 체인 리프트의 딸깍거리는 소리, 바람이 스치는 소리.\n길이: 12-15초. 부드러운 손떨림 보정이지만 현실적인 운동량이 느껴져야 함.",
     "content": "📢 [프롬프트 라이브러리 전문 분석: 1인칭 롤러코스터 POV 아드레날린 영상]\n\nAI 영상 생성 기술로 실제 테마파크에 가지 않고도 롤러코스터의 아드레날린을 생생하게 체험할 수 있는 1인칭 POV 프롬프트입니다. GoPro 헬멧 장착 시점을 완벽하게 재현하여 극한의 스릴과 속도감을 선사합니다.\n\n### 1. 프롬프트 미학적 분석 (Aesthetic Analysis)\n- **1인칭 역동적 카메라워크**: GoPro 헬멧 마운트 POV와 170도 광각 화각(FOV)을 통해 마치 실제로 롤러코스터에 탑승한 듯한 완벽한 몰입감을 연출합니다. 느린 체인 리프트 등반부터 80도 급강하, 360도 배럴 롤까지 모든 움직임이 현실적인 운동량을 유지합니다.\n- **청각적 현실감 극대화**: 바람 소리(wind noise), 비명 지르는 탑승객, 체인 리프트의 딸깍거리는 소리(click-clack) 등 사운드 디테일까지 명시하여 단순한 시각적 체험을 넘어 종합적인 감각 경험을 제공합니다.\n- **속도감과 중력 표현**: 3초 만에 0에서 70mph까지 가속하는 느낌을 명시하여 AI가 중력가속도(G-force)와 관성의 물리적 감각을 영상에 반영하도록 유도합니다.\n\n### 2. 실무 및 마케팅 활용 방안 (Practical Use Cases)\n- **테마파크/놀이공원 홍보 콘텐츠**: 실제 놀이공원의 신규 롤러코스터 홍보 영상이나 티저로 활용. POV 영상을 SNS에 업로드하여 바이럴 마케팅 효과를 노릴 수 있습니다.\n- **스릴 콘텐츠 크리에이터**: 워터파크 슬라이드, 번지점프, 스카이다이빙 등으로 프롬프트를 응용하여 짜릿한 체험형 콘텐츠 제작. 유튜브 숏츠나 인스타그램 릴스에 최적화되어 파트너스 수익화도 가능합니다.\n- **VR/AR 체험 마케팅**: 가상 현실 존이나 시뮬레이션 체험관의 프로모션 영상으로 활용하여 방문객의 기대감과 흥미를 자극할 수 있습니다.\n\n### 💡 사용 팁 (Tips for Success)\n- `theme park` 대신 `water park`나 `amusement park`로 변경하여 워터 슬라이드 버전을 만들어보세요.\n- `roller coaster`를 `bungee jump`나 `skydiving`으로 교체하면 완전히 다른 스릴 체험 영상을 생성할 수 있습니다.\n- `Bright sunny day`를 `sunset`이나 `night`로 변경하여 시간대에 따른 분위기 차이를 연출해보세요.",
@@ -3051,7 +3089,7 @@
     "desc": "오르골 속 발레리나 인형이 살아 움직인다면? 감성과 공포 사이의 섬세한 경계를 담아냈습니다.",
     "views": "98",
     "time": "3분 분량",
-    "date": "2026-06-21",
+    "date": "2026-06-21T17:09:38Z",
     "image": "/images/prompt-05-music-box-vintage.png",
     "prompt_text": "A vintage music box ballerina doll slowly dancing in a dusty antique shop window.\nThe doll moves with mechanical, jerky rotations — like winding a clockwork.\nCamera: Extreme macro close-up of the doll's face and mechanism.\nFocus pulls from the winding key in the back to the doll's porcelain face.\nLighting: A single warm spotlight from above creates dramatic shadows.\nThin dust particles floating in the light beam.\nTexture: Porcelain cracks visible, slightly yellowed with age,\nmetallic gears visible through the glass back.\nMovement: The doll completes one full rotation, arms held in fifth ballet position.\nThe wind-up key slowly stops, and the doll freezes mid-pose.\nDuration: 8 seconds. 30fps with subtle film grain.\nSound (describe): Gentle music box melody winding down, mechanical clicks.",
     "prompt_kr": "먼지 쌓인 골동품 상점 진열장에서 천천히 춤추는 빈티지 오르골 발레리나 인형.\n인형은 시계태엽을 감듯 기계적이고 경련성 있는 회전 동작으로 움직입니다.\n카메라: 인형의 얼굴과 내부 기계 장치의 극단적인 매크로 클로즈업.\n초점이 뒤쪽의 태엽 감개에서 인형의 자기질(porcelain) 얼굴로 이동.\n조명: 위에서 내리쬐는 단일 따뜻한 스포트라이트가 극적인 그림자를 만듦.\n빛줄기에 떠다니는 가느다란 먼지 입자들.\n질감: 보이는 자기 균열, 시간이 지나 약간 누렇게 변색됨,\n유리 뒷면을 통해 보이는 금속 기어.\n움직임: 인형이 다섯 번째 발레 포지션에 팔을 올린 채 한 바퀴 완전히 회전.\n태엽 감개가 천천히 멈추고, 인형이 동작 중간에 그대로 정지.\n길이: 8초. 미세한 필름 그레인이 있는 30fps.\n사운드(설명): 잦아드는 부드러운 오르골 멜로디, 기계적인 딸깍 소리.",
@@ -3073,7 +3111,7 @@
     "desc": "현실에서는 1/1000초만 포착할 수 있는 벌새의 날갯짓. AI가 4K 슬로우모션으로 재현했습니다.",
     "views": "317",
     "time": "3분 분량",
-    "date": "2026-06-21",
+    "date": "2026-06-24T04:21:40Z",
     "image": "/images/prompt-06-hummingbird-flower-macro.png",
     "prompt_text": "4K ultra-high-definition macro footage of a hummingbird hovering in mid-air.\nCamera: Macro lens at 2:1 magnification ratio, 240fps slow motion playback at 24fps.\nSubject: A ruby-throated hummingbird with iridescent green feathers.\nAction: Hovering in front of a red trumpet flower, extending its long beak\nto drink nectar. Tongue visible lapping up the nectar.\nWing motion: Wings beating at 50+ times per second — visible as a blur\nin real-time but individual wing strokes clear in slow motion.\nLighting: Golden hour backlight makes the feathers shimmer with rainbow iridescence.\nBackground: Smooth bokeh of green forest, small water droplets falling from a leaf.\nDetails: Tiny water droplets on the bird's feathers, pollen particles floating,\nthe flower's petals gently trembling from the air current.\nDuration: 10 seconds. 4K resolution. Cinematic color grading with teal-orange.",
     "prompt_kr": "공중에 정지해 있는 벌새의 4K 초고화질 매크로 푸티지.\n카메라: 2:1 배율의 매크로 렌즈, 24fps로 재생되는 240fps 슬로우 모션.\n피사체: 무지갯빛 초록색 깃털을 가진 루비목 벌새(ruby-throated hummingbird).\n액션: 빨간 나팔꽃 앞에서 공중 정지(hovering), 긴 부리를 뻗어 꿀을 마심.\n혀가 꿀을 핥아 먹는 모습이 보임.\n날개 움직임: 초당 50회 이상 날개짓 — 실시간으로는 흐릿하게 보이지만\n슬로우 모션에서는 개별 날갯짓이 선명하게 포착됨.\n조명: 황금 시간대(golden hour)의 역광이 깃털을 무지갯빛으로 반짝이게 만듦.\n배경: 녹색 숲의 부드러운 보케(bokeh), 나뭇잎에서 떨어지는 작은 물방울.\n디테일: 새 깃털의 작은 물방울, 떠다니는 꽃가루 입자,\n바람에 살짝 떨리는 꽃잎.\n길이: 10초. 4K 해상도. 청록-주황(teal-orange) 시네마틱 컬러 그레이딩.",
@@ -3095,7 +3133,7 @@
     "desc": "Sora / Luma / Runway 등 AI 영상 생성기를 위한 프롬프트입니다. Luxury Parisian Bakery Storefront의 생생한 장면을 연출해보세요.",
     "views": "850",
     "time": "1 min read",
-    "date": "2026-06-22",
+    "date": "2026-06-22T19:08:21Z",
     "image": "/images/default-video-thumbnail.png",
     "prompt_text": "A cinematic tracking shot approaching a luxurious Parisian bakery storefront. The heavy, ornate wooden double doors with brass handles slowly swing open, revealing a warmly lit, elegant interior. Showcases are filled with meticulously crafted pastries, croissants, and glowing golden baguettes. Soft morning light reflects off the pristine glass, and a gentle wisp of steam rises from a fresh espresso machine in the background. High-end, photorealistic, 8k resolution, volumetric lighting.",
     "prompt_kr": "고급스러운 파리의 베이커리 매장으로 다가가는 시네마틱 트래킹 샷. 황동 손잡이가 달린 화려하고 묵직한 목재 이중문이 천천히 열리며 따뜻한 조명으로 가득한 우아한 내부가 드러납니다. 쇼케이스에는 정교하게 구워진 페이스트리, 크루아상, 그리고 황금빛으로 빛나는 바게트가 가득 진열되어 있습니다. 아침의 부드러운 햇살이 투명한 유리에 반사되고, 배경에 있는 에스프레소 머신에서는 따뜻한 김이 피어오릅니다. 최고급 퀄리티, 실사, 8k 해상도, 볼류메트릭 조명.",
@@ -3117,7 +3155,7 @@
     "desc": "Sora / Luma / Runway 등 AI 영상 생성기를 위한 프롬프트입니다. Vintage Suitcase Opening의 생생한 장면을 연출해보세요.",
     "views": "850",
     "time": "1 min read",
-    "date": "2026-06-22",
+    "date": "2026-06-22T19:08:30Z",
     "image": "/images/default-video-thumbnail.png",
     "prompt_text": "A close-up, slow-motion shot of a weathered vintage leather suitcase slowly opening on an antique oak table. Inside, aged parchment paper labels, faded travel stamps, and sepia-toned handwritten letters are elegantly arranged. Dust motes dance in a sharp shaft of afternoon sunlight cutting across the room. Nostalgic atmosphere, cinematic grading, highly detailed textures, photorealistic.",
     "prompt_kr": "오래된 참나무 테이블 위에서 낡은 빈티지 가죽 가방이 천천히 열리는 클로즈업 슬로우 모션 샷. 가방 안에는 바랜 양피지 라벨, 희미해진 여행용 스탬프, 세피아 톤의 자필 편지들이 우아하게 정돈되어 있습니다. 방을 가로지르는 오후의 강렬한 햇살 한 줄기 사이로 먼지 입자들이 춤을 춥니다. 향수를 불러일으키는 분위기, 시네마틱 색보정, 극사실적인 질감, 실사.",
@@ -3139,7 +3177,7 @@
     "desc": "Sora / Luma / Runway 등 AI 영상 생성기를 위한 프롬프트입니다. Hands Pulling Invitation Card의 생생한 장면을 연출해보세요.",
     "views": "850",
     "time": "1 min read",
-    "date": "2026-06-22",
+    "date": "2026-06-22T19:08:31Z",
     "image": "/images/default-video-thumbnail.png",
     "prompt_text": "A macro cinematic shot of elegant hands gently pulling a premium, gold-foiled invitation card from a heavy, wax-sealed envelope. The paper has a thick, luxurious texture with subtle embossed floral patterns. Soft, diffused ambient light highlights the gleaming gold foil typography and the elegant manicure of the hands. 4k resolution, hyper-detailed, romantic and sophisticated mood.",
     "prompt_kr": "우아한 손길이 두꺼운 왁스 실링 봉투에서 고급스러운 금박 인쇄 초대장을 부드럽게 꺼내는 매크로 시네마틱 샷. 종이는 은은하게 양각 처리된 꽃무늬 패턴과 함께 두껍고 럭셔리한 질감을 가지고 있습니다. 부드럽게 퍼지는 주변 조명이 반짝이는 금박 타이포그래피와 단정하게 손질된 손톱을 돋보이게 합니다. 4K 해상도, 초정밀 디테일, 낭만적이고 세련된 무드.",
@@ -3161,7 +3199,7 @@
     "desc": "Sora / Luma / Runway 등 AI 영상 생성기를 위한 프롬프트입니다. Airplane Boarding Pass to Aurora의 생생한 장면을 연출해보세요.",
     "views": "850",
     "time": "1 min read",
-    "date": "2026-06-22",
+    "date": "2026-06-22T19:08:19Z",
     "image": "/images/default-video-thumbnail.png",
     "prompt_text": "A highly detailed first-person perspective shot holding a crisp airplane boarding pass. The destination reads 'AURORA'. The background slowly transitions from a blurred airport terminal into a breathtaking, vibrant green and purple aurora borealis dancing across a starry night sky. Magical realism, cinematic transition, glowing neon colors, 8k resolution.",
     "prompt_kr": "빳빳한 비행기 탑승권을 들고 있는 1인칭 시점의 디테일한 샷. 목적지에는 'AURORA(오로라)'라고 적혀 있습니다. 배경이 흐릿한 공항 터미널에서 점차 별이 빛나는 밤하늘을 수놓으며 춤추는 생생한 초록빛과 보랏빛의 오로라로 천천히 변환됩니다. 마술적 사실주의, 시네마틱 화면 전환, 빛나는 네온 컬러, 8K 해상도.",
@@ -3183,7 +3221,7 @@
     "desc": "Sora / Luma / Runway 등 AI 영상 생성기를 위한 프롬프트입니다. Sizzling Grilled Steak on Hot Pan의 생생한 장면을 연출해보세요.",
     "views": "850",
     "time": "1 min read",
-    "date": "2026-06-22",
+    "date": "2026-06-22T19:08:29Z",
     "image": "/images/default-video-thumbnail.png",
     "prompt_text": "A mouth-watering, extreme close-up shot of a thick, juicy ribeye steak sizzling on a cast-iron grill pan. Smoke softly wafts upward, carrying the aroma of roasted garlic and rosemary sprigs scattered on the pan. The sear marks are perfectly crusted, and the juices bubble intensely at the edges. Cinematic food photography, rich warm colors, high frame rate slow motion, incredibly detailed.",
     "prompt_kr": "무쇠 그릴 팬 위에서 지글지글 구워지는 두툼하고 육즙이 풍부한 립아이 스테이크의 군침 도는 익스트림 클로즈업 샷. 팬 위에 흩뿌려진 구운 마늘과 로즈마리의 향긋한 연기가 부드럽게 피어오릅니다. 스테이크 표면은 완벽하게 그릴 자국이 나며 구워졌고, 가장자리에는 육즙이 격렬하게 끓어오릅니다. 시네마틱 푸드 포토그래피, 풍부하고 따뜻한 색감, 고프레임 슬로우 모션, 믿을 수 없을 만큼 섬세한 디테일.",
