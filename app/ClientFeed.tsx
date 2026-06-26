@@ -185,7 +185,12 @@ function FeedInner({ initialPosts }: { initialPosts: Post[] }) {
                 <Link href={`/post/${p.id}`} style={{ display: "flex", flexDirection: "column", textDecoration: "none", color: "inherit", height: "100%" }}>
                   <div className={styles.cardImageWrapper}>
                     {p.youtubeId ? (
-                      <img src={`https://img.youtube.com/vi/${p.youtubeId}/mqdefault.jpg`} alt={p.title} className={styles.cardImage} />
+                      <img 
+                        src={`https://img.youtube.com/vi/${p.youtubeId}/maxresdefault.jpg`} 
+                        alt={p.title} 
+                        className={styles.cardImage} 
+                        onError={(e) => { e.currentTarget.src = "/images/youtube_broll.png" }}
+                      />
                     ) : (
                       <img src={p.image} alt={(p as any).alt || p.title} className={styles.cardImage} />
                     )}

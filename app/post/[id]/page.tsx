@@ -642,8 +642,9 @@ export default async function PostDetail({ params }: PageProps) {
                   >
                     {p.youtubeId ? (
                       <img
-                        src={`https://img.youtube.com/vi/${p.youtubeId}/mqdefault.jpg`}
+                        src={`https://img.youtube.com/vi/${p.youtubeId}/maxresdefault.jpg`}
                         alt={p.title}
+                        onError={(e) => { e.currentTarget.src = "/images/youtube_broll.png" }}
                         style={{
                           width: "100%",
                           height: "140px",
