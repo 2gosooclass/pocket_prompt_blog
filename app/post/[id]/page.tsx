@@ -345,6 +345,15 @@ export default async function PostDetail({ params }: PageProps) {
                 </p>
               );
             }
+            if (trimmed.startsWith("<div") || trimmed.startsWith("<iframe")) {
+              return (
+                <div
+                  key={lineIndex}
+                  dangerouslySetInnerHTML={{ __html: trimmed }}
+                  style={{ marginBottom: "1rem", width: "100%" }}
+                />
+              );
+            }
 
             return (
               <p
