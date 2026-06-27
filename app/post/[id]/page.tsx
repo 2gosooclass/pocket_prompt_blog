@@ -651,7 +651,7 @@ export default async function PostDetail({ params }: PageProps) {
                   >
                     {p.youtubeId ? (
                       <img
-                        src={`https://img.youtube.com/vi/${p.youtubeId}/mqdefault.jpg`}
+                        src={`https://img.youtube.com/vi/${p.youtubeId}/0.jpg`}
                         alt={p.title}
                         style={{
                           width: "100%",
