@@ -55,8 +55,7 @@ export default function RootLayout({
   return (
     <html lang="ko" className={`${inter.variable} ${notoSansKr.variable}`}>
       <head>
-        {/* [TODO: AdSense] Add Google AdSense Auto Ads Script here after domain connection */}
-        {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXX" crossOrigin="anonymous"></script> */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6810201750262837" crossOrigin="anonymous"></script>
 
         {/* [TODO: CMP] Add TCF v2.3 Consent Management Platform (CMP) script here (e.g. CookieYes, Osano) */}
         {/* <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/XXXXXXXX/script.js"></script> */}
