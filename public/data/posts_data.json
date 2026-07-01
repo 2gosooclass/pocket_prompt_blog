@@ -1,53 +1,5 @@
 [
   {
-    "id": 142,
-    "category": "영상 생성",
-    "slug": "[영상-생성-ai]-아이패드-마법-팝업",
-    "title": "[영상 생성 AI] 아이패드 마법 팝업",
-    "desc": "설명이 제공되지 않았습니다.",
-    "views": "New",
-    "time": "5 min read",
-    "date": "2026-07-01",
-    "image": "https://img.youtube.com/vi/K8nTBz1ZMBg/maxresdefault.jpg",
-    "prompt_text": "Description not available.",
-    "prompt_kr": "설명이 제공되지 않았습니다.",
-    "content": "### 🎬 프롬프트 엔지니어링 분석\n\n조명과 질감 묘사가 돋보이는 프롬프트입니다.\n\n### 📝 원본 프롬프트 (English)\n```text\nDescription not available.\n```\n\n### 🇰🇷 국문 해석 (Korean)\n```text\n설명이 제공되지 않았습니다.\n```",
-    "tags": [
-      "AI Video",
-      "Runway",
-      "PromptLab",
-      "omni"
-    ],
-    "verified": true,
-    "alt": "[영상 생성 AI] 아이패드 마법 팝업",
-    "youtubeId": "K8nTBz1ZMBg",
-    "author": "김비서"
-  },
-  {
-    "id": 141,
-    "category": "영상 생성",
-    "slug": "[영상-생성-ai]-실시간-의상-트랜지션",
-    "title": "[영상 생성 AI] 실시간 의상 트랜지션",
-    "desc": "설명이 제공되지 않았습니다.",
-    "views": "New",
-    "time": "5 min read",
-    "date": "2026-07-01",
-    "image": "https://img.youtube.com/vi/rozVGNE6pho/maxresdefault.jpg",
-    "prompt_text": "Description not available.",
-    "prompt_kr": "설명이 제공되지 않았습니다.",
-    "content": "### 🎬 프롬프트 엔지니어링 분석\n\n조명과 질감 묘사가 돋보이는 프롬프트입니다.\n\n### 📝 원본 프롬프트 (English)\n```text\nDescription not available.\n```\n\n### 🇰🇷 국문 해석 (Korean)\n```text\n설명이 제공되지 않았습니다.\n```",
-    "tags": [
-      "AI Video",
-      "Runway",
-      "PromptLab",
-      "omni"
-    ],
-    "verified": true,
-    "alt": "[영상 생성 AI] 실시간 의상 트랜지션",
-    "youtubeId": "rozVGNE6pho",
-    "author": "김비서"
-  },
-  {
     "id": 140,
     "category": "영상 생성",
     "slug": "ai-video-prompt-nFWnTUUEdDg",
